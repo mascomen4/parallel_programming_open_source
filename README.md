@@ -1,4 +1,4 @@
-# parallel_programming_open_source
+# Open Source Repo For Parralel Programming Course
 
 ## Hi! This a collaborative repository for solving Parallel Programming problems. 
 
