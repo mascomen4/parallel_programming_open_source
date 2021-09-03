@@ -19,5 +19,3 @@ Alternatively ``` gfortran main.f90 ```
 
 ### Contribution 
 1. Write me you github name so I could add you 
-2. 
-
