@@ -19,7 +19,7 @@ Hi! This a collaborative repository for solving Parallel Programming problems.
 
 - To test the work of any exercise, paste the code from (example) ``` lab01/test/test_quicksort.f90 ``` to ``` main.f90 ```, and paste the correct ``` include ``` statement at the top of program.
 
-- Test code is in test/ folder. Source code is in src/ folder
+- Test code is in *test/* folder. Source code is in *src/* folder
 
 ### Contribution 
 1. Write me you github name so I could add you 
