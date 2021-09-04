@@ -1,4 +1,4 @@
-# Open Source Parallel Programming Course
+# PFUR Open Source Fortran Parallel Programming Course
 
 Hi! This a collaborative repository for solving Parallel Programming problems.   
 
