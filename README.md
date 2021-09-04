@@ -1,4 +1,4 @@
-# Open Source Parralel Programming Course
+# Open Source Parallel Programming Course
 
 Hi! This a collaborative repository for solving Parallel Programming problems.   
 
