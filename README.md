@@ -1,6 +1,7 @@
 # Open Source Parralel Programming Course
 
-Hi! This a collaborative repository for solving Parallel Programming problems. 
+Hi! This a collaborative repository for solving Parallel Programming problems.   
+
 Before you start, if you have an installed virtual machine, I would really recommend to run linux ubuntu from the virtual machine and use gfortran. 
 
 1. Compiler: GFortran. Linux Ubuntu installation: ``` sudo apt install gfortran ```, but first check if it's already installed ``` which gfortran ```
