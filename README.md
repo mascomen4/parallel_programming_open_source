@@ -6,7 +6,7 @@ Hi! This a collaborative repository for solving Parallel Programming problems.
 2. IDE: CLion (you can claim it having a student status) or refer to this https://www.google.com/search?q=fortran+ide&oq=for&aqs=chrome.0.69i59j69i60j69i61l2j69i65l3j69i60.4559j0j7&sourceid=chrome&ie=UTF-8
 
 ### Labs progress:
-1. in progress
+1. 2 ex out of 3 done
 2. x
 3. x
 4. x
