@@ -2,7 +2,7 @@
 
 Hi! This a collaborative repository for solving Parallel Programming problems.   
 
-### Before you start, if you have an installed virtual machine, I would really recommend to run linux ubuntu in the virtual machine and use gfortran from there.
+**Before you start, if you have an installed virtual machine, I would really recommend to run linux ubuntu in the virtual machine and use gfortran from there.**
 
 ### Labs progress:
 1. in progress
