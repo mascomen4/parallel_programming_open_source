@@ -20,7 +20,7 @@ Before you start, if you have an installed virtual machine, I would really recom
 
 ### Usage:
 
-*lab01* directory is out of date. Please, use *lab01_new* for the first lab
+IMPORTANT: *lab01* directory is out of date. Please, use *lab01_new* for the first lab
 
 - ``` git clone git@github.com:mascomen4/parallel_programming_open_source.git ```, then in your IDE run ``` main.f90 ``` file.  
 
