@@ -6,6 +6,7 @@ Before you start, if you have an installed virtual machine, I would really recom
 
 1. Compiler: GFortran. Linux Ubuntu installation: ``` sudo apt install gfortran ```, but first check if it's already installed ``` which gfortran ```
 2. IDE: CLion (you can claim it having a student status) or refer to this https://www.google.com/search?q=fortran+ide&oq=for&aqs=chrome.0.69i59j69i60j69i61l2j69i65l3j69i60.4559j0j7&sourceid=chrome&ie=UTF-8
+3. For CLion Fortran plugin refer here: https://www.jetbrains.com/help/clion/fortran-support.html
 
 ### Labs progress:
 1. in progress
@@ -22,7 +23,7 @@ Before you start, if you have an installed virtual machine, I would really recom
 
 IMPORTANT: *lab01* directory is out of date. Please, use *lab01_new* for the first lab
 
-- ``` git clone git@github.com:mascomen4/parallel_programming_open_source.git ```, then in your IDE run ``` main.f90 ``` file.  
+- ``` git clone git@github.com:mascomen4/parallel_programming_open_source.git ```, then in your IDE open the projecct. I suggest to use CLion with GFortran plugin.
 
 - Alternatively ``` gfortran main.f90 ```  
 
