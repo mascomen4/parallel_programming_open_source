@@ -13,6 +13,10 @@ Before you start, if you have an installed virtual machine, I would really recom
 3. x
 4. x
 
+### Prerequests:
+1. Miniconda or Anaconda distribution 
+2. 
+
 
 ### Usage:
 - ``` git clone git@github.com:mascomen4/parallel_programming_open_source.git ```, then in your IDE run ``` main.f90 ``` file.  
