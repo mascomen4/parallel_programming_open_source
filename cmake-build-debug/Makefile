@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = /home/ivan/CLionProjects/parallel_programming/cmake-build-deb
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -96,6 +85,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -130,44 +130,164 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named parallel_programming
+# Target rules for targets named main
 
 # Build rule for target.
-parallel_programming: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 parallel_programming
-.PHONY : parallel_programming
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-parallel_programming/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_programming.dir/build.make CMakeFiles/parallel_programming.dir/build
-.PHONY : parallel_programming/fast
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
-main.o: main.f90.o
+#=============================================================================
+# Target rules for targets named test_ex2
 
-.PHONY : main.o
+# Build rule for target.
+test_ex2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_ex2
+.PHONY : test_ex2
+
+# fast build rule for target.
+test_ex2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ex2.dir/build.make CMakeFiles/test_ex2.dir/build
+.PHONY : test_ex2/fast
+
+#=============================================================================
+# Target rules for targets named ex2
+
+# Build rule for target.
+ex2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex2
+.PHONY : ex2
+
+# fast build rule for target.
+ex2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/build
+.PHONY : ex2/fast
+
+#=============================================================================
+# Target rules for targets named main_ex2
+
+# Build rule for target.
+main_ex2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_ex2
+.PHONY : main_ex2
+
+# fast build rule for target.
+main_ex2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex2.dir/build.make CMakeFiles/main_ex2.dir/build
+.PHONY : main_ex2/fast
+
+lab01_new/ex2/ex2.o: lab01_new/ex2/ex2.f90.o
+
+.PHONY : lab01_new/ex2/ex2.o
 
 # target to build an object file
-main.f90.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_programming.dir/build.make CMakeFiles/parallel_programming.dir/main.f90.o
-.PHONY : main.f90.o
+lab01_new/ex2/ex2.f90.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/lab01_new/ex2/ex2.f90.o
+.PHONY : lab01_new/ex2/ex2.f90.o
 
-main.i: main.f90.i
+lab01_new/ex2/ex2.i: lab01_new/ex2/ex2.f90.i
 
-.PHONY : main.i
+.PHONY : lab01_new/ex2/ex2.i
 
 # target to preprocess a source file
-main.f90.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_programming.dir/build.make CMakeFiles/parallel_programming.dir/main.f90.i
-.PHONY : main.f90.i
+lab01_new/ex2/ex2.f90.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/lab01_new/ex2/ex2.f90.i
+.PHONY : lab01_new/ex2/ex2.f90.i
 
-main.s: main.f90.s
+lab01_new/ex2/ex2.s: lab01_new/ex2/ex2.f90.s
 
-.PHONY : main.s
+.PHONY : lab01_new/ex2/ex2.s
 
 # target to generate assembly for a file
-main.f90.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/parallel_programming.dir/build.make CMakeFiles/parallel_programming.dir/main.f90.s
-.PHONY : main.f90.s
+lab01_new/ex2/ex2.f90.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/lab01_new/ex2/ex2.f90.s
+.PHONY : lab01_new/ex2/ex2.f90.s
+
+lab01_new/ex2/main.o: lab01_new/ex2/main.f90.o
+
+.PHONY : lab01_new/ex2/main.o
+
+# target to build an object file
+lab01_new/ex2/main.f90.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex2.dir/build.make CMakeFiles/main_ex2.dir/lab01_new/ex2/main.f90.o
+.PHONY : lab01_new/ex2/main.f90.o
+
+lab01_new/ex2/main.i: lab01_new/ex2/main.f90.i
+
+.PHONY : lab01_new/ex2/main.i
+
+# target to preprocess a source file
+lab01_new/ex2/main.f90.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex2.dir/build.make CMakeFiles/main_ex2.dir/lab01_new/ex2/main.f90.i
+.PHONY : lab01_new/ex2/main.f90.i
+
+lab01_new/ex2/main.s: lab01_new/ex2/main.f90.s
+
+.PHONY : lab01_new/ex2/main.s
+
+# target to generate assembly for a file
+lab01_new/ex2/main.f90.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex2.dir/build.make CMakeFiles/main_ex2.dir/lab01_new/ex2/main.f90.s
+.PHONY : lab01_new/ex2/main.f90.s
+
+lab01_new/ex2/test.o: lab01_new/ex2/test.f90.o
+
+.PHONY : lab01_new/ex2/test.o
+
+# target to build an object file
+lab01_new/ex2/test.f90.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ex2.dir/build.make CMakeFiles/test_ex2.dir/lab01_new/ex2/test.f90.o
+.PHONY : lab01_new/ex2/test.f90.o
+
+lab01_new/ex2/test.i: lab01_new/ex2/test.f90.i
+
+.PHONY : lab01_new/ex2/test.i
+
+# target to preprocess a source file
+lab01_new/ex2/test.f90.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ex2.dir/build.make CMakeFiles/test_ex2.dir/lab01_new/ex2/test.f90.i
+.PHONY : lab01_new/ex2/test.f90.i
+
+lab01_new/ex2/test.s: lab01_new/ex2/test.f90.s
+
+.PHONY : lab01_new/ex2/test.s
+
+# target to generate assembly for a file
+lab01_new/ex2/test.f90.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ex2.dir/build.make CMakeFiles/test_ex2.dir/lab01_new/ex2/test.f90.s
+.PHONY : lab01_new/ex2/test.f90.s
+
+lab01_new/main.o: lab01_new/main.f90.o
+
+.PHONY : lab01_new/main.o
+
+# target to build an object file
+lab01_new/main.f90.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lab01_new/main.f90.o
+.PHONY : lab01_new/main.f90.o
+
+lab01_new/main.i: lab01_new/main.f90.i
+
+.PHONY : lab01_new/main.i
+
+# target to preprocess a source file
+lab01_new/main.f90.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lab01_new/main.f90.i
+.PHONY : lab01_new/main.f90.i
+
+lab01_new/main.s: lab01_new/main.f90.s
+
+.PHONY : lab01_new/main.s
+
+# target to generate assembly for a file
+lab01_new/main.f90.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lab01_new/main.f90.s
+.PHONY : lab01_new/main.f90.s
 
 # Help Target
 help:
@@ -177,10 +297,22 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... parallel_programming"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... ex2"
+	@echo "... main"
+	@echo "... main_ex2"
+	@echo "... test_ex2"
+	@echo "... lab01_new/ex2/ex2.o"
+	@echo "... lab01_new/ex2/ex2.i"
+	@echo "... lab01_new/ex2/ex2.s"
+	@echo "... lab01_new/ex2/main.o"
+	@echo "... lab01_new/ex2/main.i"
+	@echo "... lab01_new/ex2/main.s"
+	@echo "... lab01_new/ex2/test.o"
+	@echo "... lab01_new/ex2/test.i"
+	@echo "... lab01_new/ex2/test.s"
+	@echo "... lab01_new/main.o"
+	@echo "... lab01_new/main.i"
+	@echo "... lab01_new/main.s"
 .PHONY : help
 
 

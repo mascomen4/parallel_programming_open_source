@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_Fortran
-  "/home/ivan/CLionProjects/parallel_programming/main.f90" "/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles/parallel_programming.dir/main.f90.o"
+  "/home/ivan/CLionProjects/parallel_programming/lab01_new/main.f90" "/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles/parallel_programming.dir/lab01_new/main.f90.o"
   )
 set(CMAKE_Fortran_COMPILER_ID "GNU")
 set(CMAKE_Fortran_SUBMODULE_SEP "@")

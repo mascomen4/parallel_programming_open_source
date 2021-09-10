@@ -1,10 +1,4 @@
 /home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ivan/CLionProjects/parallel_programming
--- The Fortran compiler identification is GNU 9.3.0
--- Detecting Fortran compiler ABI info
--- Detecting Fortran compiler ABI info - done
--- Check for working Fortran compiler: /usr/bin/f95 - skipped
--- Checking whether /usr/bin/f95 supports Fortran 90
--- Checking whether /usr/bin/f95 supports Fortran 90 - yes
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/ivan/CLionProjects/parallel_programming/cmake-build-debug

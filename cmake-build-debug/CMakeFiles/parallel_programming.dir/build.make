@@ -76,27 +76,27 @@ include CMakeFiles/parallel_programming.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/parallel_programming.dir/flags.make
 
-CMakeFiles/parallel_programming.dir/main.f90.o: CMakeFiles/parallel_programming.dir/flags.make
-CMakeFiles/parallel_programming.dir/main.f90.o: ../main.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building Fortran object CMakeFiles/parallel_programming.dir/main.f90.o"
-	/usr/bin/f95 $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/ivan/CLionProjects/parallel_programming/main.f90 -o CMakeFiles/parallel_programming.dir/main.f90.o
+CMakeFiles/parallel_programming.dir/lab01_new/main.f90.o: CMakeFiles/parallel_programming.dir/flags.make
+CMakeFiles/parallel_programming.dir/lab01_new/main.f90.o: ../lab01_new/main.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building Fortran object CMakeFiles/parallel_programming.dir/lab01_new/main.f90.o"
+	/usr/bin/f95 $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/ivan/CLionProjects/parallel_programming/lab01_new/main.f90 -o CMakeFiles/parallel_programming.dir/lab01_new/main.f90.o
 
-CMakeFiles/parallel_programming.dir/main.f90.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/parallel_programming.dir/main.f90.i"
-	/usr/bin/f95 $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/ivan/CLionProjects/parallel_programming/main.f90 > CMakeFiles/parallel_programming.dir/main.f90.i
+CMakeFiles/parallel_programming.dir/lab01_new/main.f90.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/parallel_programming.dir/lab01_new/main.f90.i"
+	/usr/bin/f95 $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/ivan/CLionProjects/parallel_programming/lab01_new/main.f90 > CMakeFiles/parallel_programming.dir/lab01_new/main.f90.i
 
-CMakeFiles/parallel_programming.dir/main.f90.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/parallel_programming.dir/main.f90.s"
-	/usr/bin/f95 $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/ivan/CLionProjects/parallel_programming/main.f90 -o CMakeFiles/parallel_programming.dir/main.f90.s
+CMakeFiles/parallel_programming.dir/lab01_new/main.f90.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/parallel_programming.dir/lab01_new/main.f90.s"
+	/usr/bin/f95 $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/ivan/CLionProjects/parallel_programming/lab01_new/main.f90 -o CMakeFiles/parallel_programming.dir/lab01_new/main.f90.s
 
 # Object files for target parallel_programming
 parallel_programming_OBJECTS = \
-"CMakeFiles/parallel_programming.dir/main.f90.o"
+"CMakeFiles/parallel_programming.dir/lab01_new/main.f90.o"
 
 # External object files for target parallel_programming
 parallel_programming_EXTERNAL_OBJECTS =
 
-parallel_programming: CMakeFiles/parallel_programming.dir/main.f90.o
+parallel_programming: CMakeFiles/parallel_programming.dir/lab01_new/main.f90.o
 parallel_programming: CMakeFiles/parallel_programming.dir/build.make
 parallel_programming: CMakeFiles/parallel_programming.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking Fortran executable parallel_programming"

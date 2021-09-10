@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/parallel_programming.dir/main.f90.o"
+  "CMakeFiles/parallel_programming.dir/lab01_new/main.f90.o"
   "parallel_programming"
   "parallel_programming.pdb"
 )

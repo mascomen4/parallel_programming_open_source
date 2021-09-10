@@ -1,0 +1,1 @@
+/usr/bin/f95 -fopenmp CMakeFiles/ex2.dir/lab01_new/ex2/ex2.f90.o -o ex2 

@@ -6,5 +6,5 @@ Fortran_DEFINES =
 
 Fortran_INCLUDES = 
 
-Fortran_FLAGS = -g
+Fortran_FLAGS = -fopenmp
 

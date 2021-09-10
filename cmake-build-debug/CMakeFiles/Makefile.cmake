@@ -11,31 +11,15 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.19.2/CMakeFortranCompiler.cmake"
   "CMakeFiles/3.19.2/CMakeSystem.cmake"
   "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCommonLanguageInclude.cmake"
-  "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCompilerIdDetection.cmake"
-  "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/CMakeDetermineCompiler.cmake"
-  "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/CMakeDetermineCompilerABI.cmake"
-  "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/CMakeDetermineCompilerId.cmake"
-  "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/CMakeDetermineFortranCompiler.cmake"
-  "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/CMakeDetermineSystem.cmake"
   "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
-  "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindBinUtils.cmake"
   "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindCodeBlocks.cmake"
-  "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFortranCompiler.cmake.in"
-  "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFortranCompilerABI.F"
   "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFortranInformation.cmake"
   "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/CMakeGenericSystem.cmake"
   "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/CMakeInitializeConfigs.cmake"
   "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/CMakeLanguageInformation.cmake"
-  "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/CMakeParseImplicitIncludeInfo.cmake"
-  "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/CMakeParseImplicitLinkInfo.cmake"
-  "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/CMakeSystem.cmake.in"
   "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/CMakeSystemSpecificInformation.cmake"
   "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/CMakeSystemSpecificInitialize.cmake"
-  "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/CMakeTestCompilerCommon.cmake"
-  "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/CMakeTestFortranCompiler.cmake"
-  "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/CMakeUnixFindMake.cmake"
   "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
-  "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/Compiler/GNU-FindBinUtils.cmake"
   "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/Compiler/GNU-Fortran.cmake"
   "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/Compiler/GNU.cmake"
   "/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/share/cmake-3.19/Modules/Platform/Linux-GNU-Fortran.cmake"
@@ -53,13 +37,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/3.19.2/CMakeSystem.cmake"
-  "CMakeFiles/3.19.2/CMakeFortranCompiler.cmake"
-  "CMakeFiles/3.19.2/CMakeFortranCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/parallel_programming.dir/DependInfo.cmake"
+  "CMakeFiles/main.dir/DependInfo.cmake"
+  "CMakeFiles/test_ex2.dir/DependInfo.cmake"
+  "CMakeFiles/ex2.dir/DependInfo.cmake"
+  "CMakeFiles/main_ex2.dir/DependInfo.cmake"
   )
