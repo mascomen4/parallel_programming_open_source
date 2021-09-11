@@ -21,13 +21,11 @@ Hi! This a collaborative repository for solving Parallel Programming problems.
 
 IMPORTANT: *lab01* directory is out of date. Please, use *lab01_new* for the first lab
 
-- ``` git clone git@github.com:mascomen4/parallel_programming_open_source.git ```, then in your IDE open the projecct. I suggest to use CLion with GFortran plugin.
+- ``` git clone git@github.com:mascomen4/parallel_programming_open_source.git ```, then in your IDE open the projecct.
 
-- Alternatively ``` gfortran main.f90 ```  
+- Alternatively ``` gfortran --fopenmp main.f90 -o main  ```  
 
-- To test the work of any exercise, paste the code from (example) ``` lab01/test/test_quicksort.f90 ``` to ``` main.f90 ```, and paste the correct ``` include ``` statement at the top of program.
-
-- Test code is in *test/*  folder. Source code is in *src/*  folder
+- TODO: Exlain how to run the exs.
 
 ### Contribution 
 1. Write me you github name so I could add you 
