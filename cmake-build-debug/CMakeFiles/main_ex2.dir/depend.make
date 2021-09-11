@@ -3,10 +3,14 @@
 
 # Note that incremental build could trigger a call to cmake_copy_f90_mod on each re-build
 CMakeFiles/main_ex2.dir/lab01_new/ex2/main.f90.o: ../lab01_new/ex2/ex2.f90
+CMakeFiles/main_ex2.dir/lab01_new/ex2/main.f90.o: ../lab01_new/ex2/test.f90
 
 CMakeFiles/main_ex2.dir/lab01_new/ex2/main.f90.o.provides.build: CMakeFiles/main_ex2.dir/ex2.mod.stamp
 CMakeFiles/main_ex2.dir/ex2.mod.stamp: CMakeFiles/main_ex2.dir/lab01_new/ex2/main.f90.o
 	$(CMAKE_COMMAND) -E cmake_copy_f90_mod ex2.mod CMakeFiles/main_ex2.dir/ex2.mod.stamp GNU
+CMakeFiles/main_ex2.dir/lab01_new/ex2/main.f90.o.provides.build: CMakeFiles/main_ex2.dir/test.mod.stamp
+CMakeFiles/main_ex2.dir/test.mod.stamp: CMakeFiles/main_ex2.dir/lab01_new/ex2/main.f90.o
+	$(CMAKE_COMMAND) -E cmake_copy_f90_mod test.mod CMakeFiles/main_ex2.dir/test.mod.stamp GNU
 CMakeFiles/main_ex2.dir/lab01_new/ex2/main.f90.o.provides.build:
 	$(CMAKE_COMMAND) -E touch CMakeFiles/main_ex2.dir/lab01_new/ex2/main.f90.o.provides.build
 CMakeFiles/main_ex2.dir/build: CMakeFiles/main_ex2.dir/lab01_new/ex2/main.f90.o.provides.build
