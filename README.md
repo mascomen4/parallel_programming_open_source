@@ -11,7 +11,7 @@ Hi! This a collaborative repository for solving Parallel Programming problems.
 4. x
 
 ### Prerequests:
-1. Miniconda or Anaconda distribution 
+1. Miniconda or Anaconda distribution: https://docs.conda.io/en/latest/miniconda.html
 2. Compiler: GFortran. Linux Ubuntu installation: ``` sudo apt install gfortran ```, but first check if it's already installed ``` which gfortran ```
 2. IDE: CLion (you can claim it having a student status) or refer to this https://www.google.com/search?q=fortran+ide&oq=for&aqs=chrome.0.69i59j69i60j69i61l2j69i65l3j69i60.4559j0j7&sourceid=chrome&ie=UTF-8
 3. For CLion Fortran plugin refer here: https://www.jetbrains.com/help/clion/fortran-support.html
