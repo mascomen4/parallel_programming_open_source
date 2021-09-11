@@ -5,7 +5,7 @@ Hi! This a collaborative repository for solving Parallel Programming problems.
 **Before you start, if you have an installed virtual machine, I would really recommend to run linux ubuntu in the virtual machine and use gfortran from there.**
 
 ### Labs progress:
-1. task1, task2 are done. Task3 and task4 remains
+1. A little work on ex2 remains. The rest is done.
 2. x
 3. x
 4. x
