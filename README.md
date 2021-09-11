@@ -21,9 +21,10 @@ Hi! This a collaborative repository for solving Parallel Programming problems.
 
 IMPORTANT: *lab01* directory is out of date. Please, use *lab01_new* for the first lab
 
-- ``` git clone git@github.com:mascomen4/parallel_programming_open_source.git ```, then in your IDE open the projecct.
+- ``` git clone git@github.com:mascomen4/parallel_programming_open_source.git ```
+- Then in your IDE open the project, choose **main** function from any ex. in configurations and run it. For example, choose **main_ex2** to run the tests on ex2.f90 fortran file.
 
-- Alternatively ``` gfortran --fopenmp main.f90 -o main  ```  
+*For sure, you can compile the ex. in the bash. In that case I suggest you know what u're doing, so u don't need any explanations.*
 
 - TODO: Exlain how to run the exs.
 
