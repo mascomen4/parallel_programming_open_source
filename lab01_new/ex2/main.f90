@@ -1,10 +1,12 @@
 include "test.f90"
+include 'different_threads_parse_ex2.f90'
 
 program main
     use iso_fortran_env
     use ex2
     use omp_lib
     use test
+    use different_threads_num_ex2
     implicit none
 
     real(real64) res
@@ -27,6 +29,7 @@ program main
 !    print *, "Total result is ", res
 !    print *, "Actual sum is ", sum(array)
 
+! FOR TESTING. POINT 5
     call test1()
 
 end program main

@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = /home/ivan/CLionProjects/parallel_programming/cmake-build-deb
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -96,6 +85,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -130,30 +130,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named main_ex2
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
+main_ex2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_ex2
+.PHONY : main_ex2
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
-
-#=============================================================================
-# Target rules for targets named test_ex2
-
-# Build rule for target.
-test_ex2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_ex2
-.PHONY : test_ex2
-
-# fast build rule for target.
-test_ex2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ex2.dir/build.make CMakeFiles/test_ex2.dir/build
-.PHONY : test_ex2/fast
+main_ex2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex2.dir/build.make CMakeFiles/main_ex2.dir/build
+.PHONY : main_ex2/fast
 
 #=============================================================================
 # Target rules for targets named ex2
@@ -169,17 +156,108 @@ ex2/fast:
 .PHONY : ex2/fast
 
 #=============================================================================
-# Target rules for targets named main_ex2
+# Target rules for targets named test_ex2
 
 # Build rule for target.
-main_ex2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_ex2
-.PHONY : main_ex2
+test_ex2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_ex2
+.PHONY : test_ex2
 
 # fast build rule for target.
-main_ex2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex2.dir/build.make CMakeFiles/main_ex2.dir/build
-.PHONY : main_ex2/fast
+test_ex2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ex2.dir/build.make CMakeFiles/test_ex2.dir/build
+.PHONY : test_ex2/fast
+
+#=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+#=============================================================================
+# Target rules for targets named ex3
+
+# Build rule for target.
+ex3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex3
+.PHONY : ex3
+
+# fast build rule for target.
+ex3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex3.dir/build.make CMakeFiles/ex3.dir/build
+.PHONY : ex3/fast
+
+#=============================================================================
+# Target rules for targets named test_ex3
+
+# Build rule for target.
+test_ex3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_ex3
+.PHONY : test_ex3
+
+# fast build rule for target.
+test_ex3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ex3.dir/build.make CMakeFiles/test_ex3.dir/build
+.PHONY : test_ex3/fast
+
+#=============================================================================
+# Target rules for targets named test_ex4
+
+# Build rule for target.
+test_ex4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_ex4
+.PHONY : test_ex4
+
+# fast build rule for target.
+test_ex4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ex4.dir/build.make CMakeFiles/test_ex4.dir/build
+.PHONY : test_ex4/fast
+
+#=============================================================================
+# Target rules for targets named main_ex3
+
+# Build rule for target.
+main_ex3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_ex3
+.PHONY : main_ex3
+
+# fast build rule for target.
+main_ex3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex3.dir/build.make CMakeFiles/main_ex3.dir/build
+.PHONY : main_ex3/fast
+
+#=============================================================================
+# Target rules for targets named ex4
+
+# Build rule for target.
+ex4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex4
+.PHONY : ex4
+
+# fast build rule for target.
+ex4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/build
+.PHONY : ex4/fast
+
+#=============================================================================
+# Target rules for targets named main_ex4
+
+# Build rule for target.
+main_ex4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_ex4
+.PHONY : main_ex4
+
+# fast build rule for target.
+main_ex4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex4.dir/build.make CMakeFiles/main_ex4.dir/build
+.PHONY : main_ex4/fast
 
 lab01_new/ex2/ex2.o: lab01_new/ex2/ex2.f90.o
 
@@ -262,6 +340,168 @@ lab01_new/ex2/test.f90.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ex2.dir/build.make CMakeFiles/test_ex2.dir/lab01_new/ex2/test.f90.s
 .PHONY : lab01_new/ex2/test.f90.s
 
+lab01_new/ex3/ex3.o: lab01_new/ex3/ex3.f90.o
+
+.PHONY : lab01_new/ex3/ex3.o
+
+# target to build an object file
+lab01_new/ex3/ex3.f90.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex3.dir/build.make CMakeFiles/ex3.dir/lab01_new/ex3/ex3.f90.o
+.PHONY : lab01_new/ex3/ex3.f90.o
+
+lab01_new/ex3/ex3.i: lab01_new/ex3/ex3.f90.i
+
+.PHONY : lab01_new/ex3/ex3.i
+
+# target to preprocess a source file
+lab01_new/ex3/ex3.f90.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex3.dir/build.make CMakeFiles/ex3.dir/lab01_new/ex3/ex3.f90.i
+.PHONY : lab01_new/ex3/ex3.f90.i
+
+lab01_new/ex3/ex3.s: lab01_new/ex3/ex3.f90.s
+
+.PHONY : lab01_new/ex3/ex3.s
+
+# target to generate assembly for a file
+lab01_new/ex3/ex3.f90.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex3.dir/build.make CMakeFiles/ex3.dir/lab01_new/ex3/ex3.f90.s
+.PHONY : lab01_new/ex3/ex3.f90.s
+
+lab01_new/ex3/main.o: lab01_new/ex3/main.f90.o
+
+.PHONY : lab01_new/ex3/main.o
+
+# target to build an object file
+lab01_new/ex3/main.f90.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex3.dir/build.make CMakeFiles/main_ex3.dir/lab01_new/ex3/main.f90.o
+.PHONY : lab01_new/ex3/main.f90.o
+
+lab01_new/ex3/main.i: lab01_new/ex3/main.f90.i
+
+.PHONY : lab01_new/ex3/main.i
+
+# target to preprocess a source file
+lab01_new/ex3/main.f90.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex3.dir/build.make CMakeFiles/main_ex3.dir/lab01_new/ex3/main.f90.i
+.PHONY : lab01_new/ex3/main.f90.i
+
+lab01_new/ex3/main.s: lab01_new/ex3/main.f90.s
+
+.PHONY : lab01_new/ex3/main.s
+
+# target to generate assembly for a file
+lab01_new/ex3/main.f90.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex3.dir/build.make CMakeFiles/main_ex3.dir/lab01_new/ex3/main.f90.s
+.PHONY : lab01_new/ex3/main.f90.s
+
+lab01_new/ex3/speed_test.o: lab01_new/ex3/speed_test.f90.o
+
+.PHONY : lab01_new/ex3/speed_test.o
+
+# target to build an object file
+lab01_new/ex3/speed_test.f90.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ex3.dir/build.make CMakeFiles/test_ex3.dir/lab01_new/ex3/speed_test.f90.o
+.PHONY : lab01_new/ex3/speed_test.f90.o
+
+lab01_new/ex3/speed_test.i: lab01_new/ex3/speed_test.f90.i
+
+.PHONY : lab01_new/ex3/speed_test.i
+
+# target to preprocess a source file
+lab01_new/ex3/speed_test.f90.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ex3.dir/build.make CMakeFiles/test_ex3.dir/lab01_new/ex3/speed_test.f90.i
+.PHONY : lab01_new/ex3/speed_test.f90.i
+
+lab01_new/ex3/speed_test.s: lab01_new/ex3/speed_test.f90.s
+
+.PHONY : lab01_new/ex3/speed_test.s
+
+# target to generate assembly for a file
+lab01_new/ex3/speed_test.f90.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ex3.dir/build.make CMakeFiles/test_ex3.dir/lab01_new/ex3/speed_test.f90.s
+.PHONY : lab01_new/ex3/speed_test.f90.s
+
+lab01_new/ex4/ex4.o: lab01_new/ex4/ex4.f90.o
+
+.PHONY : lab01_new/ex4/ex4.o
+
+# target to build an object file
+lab01_new/ex4/ex4.f90.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/lab01_new/ex4/ex4.f90.o
+.PHONY : lab01_new/ex4/ex4.f90.o
+
+lab01_new/ex4/ex4.i: lab01_new/ex4/ex4.f90.i
+
+.PHONY : lab01_new/ex4/ex4.i
+
+# target to preprocess a source file
+lab01_new/ex4/ex4.f90.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/lab01_new/ex4/ex4.f90.i
+.PHONY : lab01_new/ex4/ex4.f90.i
+
+lab01_new/ex4/ex4.s: lab01_new/ex4/ex4.f90.s
+
+.PHONY : lab01_new/ex4/ex4.s
+
+# target to generate assembly for a file
+lab01_new/ex4/ex4.f90.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/lab01_new/ex4/ex4.f90.s
+.PHONY : lab01_new/ex4/ex4.f90.s
+
+lab01_new/ex4/main.o: lab01_new/ex4/main.f90.o
+
+.PHONY : lab01_new/ex4/main.o
+
+# target to build an object file
+lab01_new/ex4/main.f90.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex4.dir/build.make CMakeFiles/main_ex4.dir/lab01_new/ex4/main.f90.o
+.PHONY : lab01_new/ex4/main.f90.o
+
+lab01_new/ex4/main.i: lab01_new/ex4/main.f90.i
+
+.PHONY : lab01_new/ex4/main.i
+
+# target to preprocess a source file
+lab01_new/ex4/main.f90.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex4.dir/build.make CMakeFiles/main_ex4.dir/lab01_new/ex4/main.f90.i
+.PHONY : lab01_new/ex4/main.f90.i
+
+lab01_new/ex4/main.s: lab01_new/ex4/main.f90.s
+
+.PHONY : lab01_new/ex4/main.s
+
+# target to generate assembly for a file
+lab01_new/ex4/main.f90.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex4.dir/build.make CMakeFiles/main_ex4.dir/lab01_new/ex4/main.f90.s
+.PHONY : lab01_new/ex4/main.f90.s
+
+lab01_new/ex4/test.o: lab01_new/ex4/test.f90.o
+
+.PHONY : lab01_new/ex4/test.o
+
+# target to build an object file
+lab01_new/ex4/test.f90.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ex4.dir/build.make CMakeFiles/test_ex4.dir/lab01_new/ex4/test.f90.o
+.PHONY : lab01_new/ex4/test.f90.o
+
+lab01_new/ex4/test.i: lab01_new/ex4/test.f90.i
+
+.PHONY : lab01_new/ex4/test.i
+
+# target to preprocess a source file
+lab01_new/ex4/test.f90.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ex4.dir/build.make CMakeFiles/test_ex4.dir/lab01_new/ex4/test.f90.i
+.PHONY : lab01_new/ex4/test.f90.i
+
+lab01_new/ex4/test.s: lab01_new/ex4/test.f90.s
+
+.PHONY : lab01_new/ex4/test.s
+
+# target to generate assembly for a file
+lab01_new/ex4/test.f90.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ex4.dir/build.make CMakeFiles/test_ex4.dir/lab01_new/ex4/test.f90.s
+.PHONY : lab01_new/ex4/test.f90.s
+
 lab01_new/main.o: lab01_new/main.f90.o
 
 .PHONY : lab01_new/main.o
@@ -298,9 +538,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ex2"
+	@echo "... ex3"
+	@echo "... ex4"
 	@echo "... main"
 	@echo "... main_ex2"
+	@echo "... main_ex3"
+	@echo "... main_ex4"
 	@echo "... test_ex2"
+	@echo "... test_ex3"
+	@echo "... test_ex4"
 	@echo "... lab01_new/ex2/ex2.o"
 	@echo "... lab01_new/ex2/ex2.i"
 	@echo "... lab01_new/ex2/ex2.s"
@@ -310,6 +556,24 @@ help:
 	@echo "... lab01_new/ex2/test.o"
 	@echo "... lab01_new/ex2/test.i"
 	@echo "... lab01_new/ex2/test.s"
+	@echo "... lab01_new/ex3/ex3.o"
+	@echo "... lab01_new/ex3/ex3.i"
+	@echo "... lab01_new/ex3/ex3.s"
+	@echo "... lab01_new/ex3/main.o"
+	@echo "... lab01_new/ex3/main.i"
+	@echo "... lab01_new/ex3/main.s"
+	@echo "... lab01_new/ex3/speed_test.o"
+	@echo "... lab01_new/ex3/speed_test.i"
+	@echo "... lab01_new/ex3/speed_test.s"
+	@echo "... lab01_new/ex4/ex4.o"
+	@echo "... lab01_new/ex4/ex4.i"
+	@echo "... lab01_new/ex4/ex4.s"
+	@echo "... lab01_new/ex4/main.o"
+	@echo "... lab01_new/ex4/main.i"
+	@echo "... lab01_new/ex4/main.s"
+	@echo "... lab01_new/ex4/test.o"
+	@echo "... lab01_new/ex4/test.i"
+	@echo "... lab01_new/ex4/test.s"
 	@echo "... lab01_new/main.o"
 	@echo "... lab01_new/main.i"
 	@echo "... lab01_new/main.s"

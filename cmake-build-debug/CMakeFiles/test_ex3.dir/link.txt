@@ -1,0 +1,1 @@
+/usr/bin/f95 -fopenmp CMakeFiles/test_ex3.dir/lab01_new/ex3/speed_test.f90.o -o test_ex3 

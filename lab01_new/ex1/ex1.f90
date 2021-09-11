@@ -41,5 +41,5 @@ program main
 
     open(5, file="../lab01_new/out.txt", action="write")
     write(5, "(2x, f24.17)"), results_array
-    ! write(5, *), result
+    close(5, status="keep")
 end program main

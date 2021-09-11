@@ -1,6 +1,12 @@
-/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles/main.dir
-/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles/test_ex2.dir
-/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles/ex2.dir
 /home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles/main_ex2.dir
+/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles/ex2.dir
+/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles/test_ex2.dir
+/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles/main.dir
+/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles/ex3.dir
+/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles/test_ex3.dir
+/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles/test_ex4.dir
+/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles/main_ex3.dir
+/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles/ex4.dir
+/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles/main_ex4.dir

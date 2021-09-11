@@ -1,0 +1,1 @@
+/usr/bin/f95 -fopenmp CMakeFiles/ex3.dir/lab01_new/ex3/ex3.f90.o -o ex3 
