@@ -22,7 +22,8 @@ Hi! This a collaborative repository for solving Parallel Programming problems.
 IMPORTANT: *lab01* directory is out of date. Please, use *lab01_new* for the first lab
 
 - ``` git clone git@github.com:mascomen4/parallel_programming_open_source.git ```
-- Then in your IDE open the project, choose **main** function from any ex. in configurations and run it. For example, choose **main_ex2** to run the tests on ex2.f90 fortran file.
+- Then in your IDE open the project, choose **main** function from any exercise in configurations and run it. For example, choose **main_ex2** to run the tests on ex2.f90 fortran file.
+- ONLY FOR EXERCISE 1: Additionaly, in the main.f90 files you'll find the blocks of code marked as ```FOR POINT X```. You can uncomment this block of code, and comment the rest of code, leaving the variables declarations. In that case you'll be able to see the work done on the previous points during the exercise.
 - TODO: Exlain how to run the exs.
 
 ### For sure, you can compile the ex. in the bash. In that case I suggest you know what u're doing, so u don't need any explanations.
