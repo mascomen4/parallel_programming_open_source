@@ -6,14 +6,11 @@ Hi! This a collaborative repository for solving Parallel Programming problems.
 
 ### Labs progress:
 Lab 01:   
-![80%](https://progress-bar.dev/80)  
-
+![80%](https://progress-bar.dev/80)
 Lab 02:   
-![0%](https://progress-bar.dev/0)  
-
+![0%](https://progress-bar.dev/0)
 Lab 03:   
-![0%](https://progress-bar.dev/0)  
-
+![0%](https://progress-bar.dev/0)
 Lab 04:   
 ![0%](https://progress-bar.dev/0)  
 
