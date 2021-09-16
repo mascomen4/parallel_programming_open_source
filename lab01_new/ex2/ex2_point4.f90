@@ -31,7 +31,7 @@ module ex2_point4
         call omp_set_num_threads(threads_num)
         length = size(array, 1)
         res = 0.0
-        !$omp parallel shared(array, threads_results) reduction(+ : res)
+        !$omp parallel shared(array) reduction(+ : res)
 
             do i = omp_get_thread_num() + 1, length, 4
                 res = res + array(i)
@@ -39,7 +39,6 @@ module ex2_point4
 
             write (*,*) "The thread number ", omp_get_thread_num(), " got the result", res
         !$omp end parallel
-        print *, "Res is ", res
     end function proc_ex2_point4
 
 end module ex2_point4

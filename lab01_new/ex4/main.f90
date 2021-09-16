@@ -8,8 +8,6 @@ program main
     use test
     implicit none
 
-! TODO: Explain how to declare the pure and elemental functions. What is the difference between them.
-! TODO: How to pass a function as an argument to the other function.
 
 !    double precision, dimension(1:10) :: array, res
 !    call random_number(array)

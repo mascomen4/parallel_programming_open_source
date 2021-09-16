@@ -1,4 +1,4 @@
-include 'ex2_point4.f90.f90'
+include 'ex2_point4.f90'
 
 program main_point4
     use iso_fortran_env

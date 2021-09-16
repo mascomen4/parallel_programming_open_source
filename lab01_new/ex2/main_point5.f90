@@ -2,7 +2,6 @@ include 'test_point5.f90'
 
 program main_point5
     use iso_fortran_env
-    use ex2
     use omp_lib
     use test
     implicit none
