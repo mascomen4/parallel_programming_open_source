@@ -27,9 +27,8 @@ Lab 01: ![100%](https://progress-bar.dev/100) Lab 02: ![0%](https://progress-bar
 ### Usage:
 
 - ``` git clone git@github.com:mascomen4/parallel_programming_open_source.git ```
-- Then in your IDE open the project, choose **main** function from any exercise in configurations and run it. For example, choose **main_ex2** to run the tests over the ex2.f90 fortran file.
-- ONLY FOR EXERCISE 1: Additionaly, in the main.f90 files you'll find the blocks of code marked as ```FOR POINT X```. You can uncomment this block of code, and comment the rest of code, leaving the variables declarations. In that case you'll be able to see the work done on the previous points during the exercise.
-
+- Then in your IDE open the project, choose any **main** function from any exercise in configurations and run it. For example, choose **main_ex3** to run the tests over the ex2.f90 fortran file.
+- Each exercise consists of some number of points. Fer every point I made the `main` file, so you can easily select&run it. 
 
 ### Contribution 
 1. Write me you github name so I could add you 
