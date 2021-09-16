@@ -5,8 +5,8 @@ Hi! This a collaborative repository for solving Parallel Programming exercises.
 
 IMPORTANT: *lab01* directory is out of date. Please, use *lab01_new* for the first lab  
 
-Note: First line of each file consists of something like `! Created by ivan on 10.09.2021.`. Please, do remember to remove that line if you want to test  
-the project on your own. 
+Note: First line of each file consists of something like `! Created by ivan on 10.09.2021.`. Please, do remember to remove that line if you want to test
+the project on your own.  
 Note: Please, refer to branch `develop` for the most recent updates 
 
 For sure, you can compile the ex. in the bash. In that case I suggest you know what u're doing, so u don't need any explanations.
