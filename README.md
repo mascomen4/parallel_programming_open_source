@@ -18,9 +18,10 @@ Lab 01: ![80%](https://progress-bar.dev/80) Lab 02: ![0%](https://progress-bar.d
 
 IMPORTANT: *lab01* directory is out of date. Please, use *lab01_new* for the first lab  
 
-
 Note: First line of each file consists of something like `! Created by ivan on 10.09.2021.`. Please, do remember to remove that line if you want to test 
 the project on your own. 
+
+Note: Please, refer to branch "develop" for the most recent updates 
 
 - ``` git clone git@github.com:mascomen4/parallel_programming_open_source.git ```
 - Then in your IDE open the project, choose **main** function from any exercise in configurations and run it. For example, choose **main_ex2** to run the tests over the ex2.f90 fortran file.
