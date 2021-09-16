@@ -5,10 +5,10 @@ Hi! This a collaborative repository for solving Parallel Programming problems.
 **Before you start, if you have an installed virtual machine, I would really recommend to run linux ubuntu in the virtual machine and use gfortran from there.**
 
 ### Labs progress:
-1. ![80%](https://progress-bar.dev/80) A little work on ex2 remains.
-2. x
-3. x
-4. x
+1. ![80%](https://progress-bar.dev/80)
+2. [0%](https://progress-bar.dev/0)
+3. [0%](https://progress-bar.dev/0)
+4. [0%](https://progress-bar.dev/0)
 
 ### Prerequests:
 1. Miniconda or Anaconda distribution: https://docs.conda.io/en/latest/miniconda.html
