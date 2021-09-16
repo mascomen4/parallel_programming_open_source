@@ -5,10 +5,7 @@ Hi! This a collaborative repository for solving Parallel Programming problems.
 **Before you start, if you have an installed virtual machine, I would really recommend to run linux ubuntu in the virtual machine and use gfortran from there.**
 
 ### Labs progress:
-1. task1, task2 are done. Task3 and task4 remains
-2. x
-3. x
-4. x
+Lab 01: ![80%](https://progress-bar.dev/80) Lab 02: ![0%](https://progress-bar.dev/0)  Lab 03: ![0%](https://progress-bar.dev/0)  Lab 04: ![0%](https://progress-bar.dev/0)  
 
 ### Prerequests:
 1. Miniconda or Anaconda distribution: https://docs.conda.io/en/latest/miniconda.html
@@ -19,12 +16,15 @@ Hi! This a collaborative repository for solving Parallel Programming problems.
 
 ### Usage:
 
-IMPORTANT: *lab01* directory is out of date. Please, use *lab01_new* for the first lab
+IMPORTANT: *lab01* directory is out of date. Please, use *lab01_new* for the first lab  
+
+
+Note: First line of each file consists of something like `! Created by ivan on 10.09.2021.`. Please, do remember to remove that line if you want to test 
+the project on your own. 
 
 - ``` git clone git@github.com:mascomen4/parallel_programming_open_source.git ```
-- Then in your IDE open the project, choose **main** function from any exercise in configurations and run it. For example, choose **main_ex2** to run the tests on ex2.f90 fortran file.
+- Then in your IDE open the project, choose **main** function from any exercise in configurations and run it. For example, choose **main_ex2** to run the tests over the ex2.f90 fortran file.
 - ONLY FOR EXERCISE 1: Additionaly, in the main.f90 files you'll find the blocks of code marked as ```FOR POINT X```. You can uncomment this block of code, and comment the rest of code, leaving the variables declarations. In that case you'll be able to see the work done on the previous points during the exercise.
-- TODO: Exlain how to run the exs.
 
 ### For sure, you can compile the ex. in the bash. In that case I suggest you know what u're doing, so u don't need any explanations.
 
