@@ -12,7 +12,7 @@ Note: Please, refer to branch `develop` for the most recent updates
 For sure, you can compile the ex. in the bash. In that case I suggest you know what u're doing, so u don't need any explanations.
 
 
-For windows users: **Before you start, if you have an installed virtual machine, I would really recommend to run linux ubuntu in the virtual machine and use gfortran from there.**
+**For windows users:** Before you start, if you have an installed virtual machine, I would really recommend to run linux ubuntu in the virtual machine and use gfortran from there.
 
 ### Labs progress:
 Lab 01: ![80%](https://progress-bar.dev/80) Lab 02: ![0%](https://progress-bar.dev/0)  Lab 03: ![0%](https://progress-bar.dev/0)  Lab 04: ![0%](https://progress-bar.dev/0)  
