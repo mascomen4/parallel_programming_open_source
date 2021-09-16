@@ -1,4 +1,4 @@
-!include "ex2/ex2.f90"
+!include "ex2/ex2_point4.f90"
 !program main
 !    use iso_fortran_env
 !    use ex2

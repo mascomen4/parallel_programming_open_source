@@ -1,0 +1,3 @@
+# The fortran modules provided by this target.
+provides
+ different_threads_num_ex2.mod
