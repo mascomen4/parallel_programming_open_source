@@ -1,0 +1,1 @@
+/usr/bin/f95 -fopenmp CMakeFiles/ex1_points12.dir/lab01_new/ex1/ex1_points12.f90.o -o ex1_points12 
