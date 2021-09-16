@@ -6,9 +6,9 @@ Hi! This a collaborative repository for solving Parallel Programming problems.
 
 ### Labs progress:
 1. ![80%](https://progress-bar.dev/80)
-2. [0%](https://progress-bar.dev/0)
-3. [0%](https://progress-bar.dev/0)
-4. [0%](https://progress-bar.dev/0)
+2. ![0%](https://progress-bar.dev/0)
+3. ![0%](https://progress-bar.dev/0)
+4. ![0%](https://progress-bar.dev/0)
 
 ### Prerequests:
 1. Miniconda or Anaconda distribution: https://docs.conda.io/en/latest/miniconda.html
