@@ -18,7 +18,7 @@ For sure, you can compile the ex. in the bash. In that case I suggest you know w
 Lab 01: ![100%](https://progress-bar.dev/100) Lab 02: ![0%](https://progress-bar.dev/0)  Lab 03: ![0%](https://progress-bar.dev/0)  Lab 04: ![0%](https://progress-bar.dev/0)  
 
 ### Prerequests:
-1. Miniconda or Anaconda distribution: https://docs.conda.io/en/latest/miniconda.html
+1. Miniconda or Anaconda distribution: https://docs.conda.io/en/latest/miniconda.html for plotting data in ex1. 
 2. Compiler: GFortran. Linux Ubuntu installation: ``` sudo apt install gfortran ```, but first check if it's already installed ``` which gfortran ```
 2. IDE: CLion (you can claim the license having a student status)
 3. For CLion Fortran plugin refer here: https://www.jetbrains.com/help/clion/fortran-support.html
