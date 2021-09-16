@@ -27,7 +27,9 @@ Lab 04:
 ### Usage:
 
 IMPORTANT: *lab01* directory is out of date. Please, use *lab01_new* for the first lab  
-NOTE: First line of each file consists of something like "! Created by ivan on 10.09.2021.". Please, do remember to remove that line if you want to test 
+
+
+Note: First line of each file consists of something like "! Created by ivan on 10.09.2021.". Please, do remember to remove that line if you want to test 
 the project on your own. 
 
 - ``` git clone git@github.com:mascomen4/parallel_programming_open_source.git ```
