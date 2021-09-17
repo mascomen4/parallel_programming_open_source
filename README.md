@@ -1,6 +1,6 @@
 # PFUR Open Source Fortran Parallel Programming Course
 
-## Abstract
+### Abstract
 Hi! This a collaborative repository for solving Parallel Programming exercises.   
 
 IMPORTANT: *lab01* directory is out of date. Please, use *lab01_new* for the first lab  
@@ -14,7 +14,7 @@ For sure, you can compile the ex. in the bash. In that case I suggest you know w
 
 **For windows users:** Before you start, if you have an installed virtual machine, I would really recommend to run linux ubuntu in the virtual machine and use gfortran from there.
 
-## Labs progress:
+### Labs progress:
 Lab 01: ![100%](https://progress-bar.dev/100) Lab 02: ![0%](https://progress-bar.dev/0)  Lab 03: ![0%](https://progress-bar.dev/0)  Lab 04: ![0%](https://progress-bar.dev/0)  
 
 # Prerequisites:
