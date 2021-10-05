@@ -5,10 +5,7 @@ IMPORTANT: *lab01* directory is out of date. Please, use *lab01_new* for the fir
 
 Note: First line of each file consists of something like `! Created by ivan on 10.09.2021.`. Please, do remember to remove that line if you want to test
 the project on your own.  
-Note: Please, refer to branch `develop` for the most recent updates 
-
-For sure, you can compile the ex. in the bash. In that case I suggest you know what u're doing, so u don't need any explanations.
-
+Note: Please, refer to branch `develop` for the most recent updates  
 
 
 ### Labs progress:
@@ -20,6 +17,7 @@ Lab 01: ![100%](https://progress-bar.dev/100) Lab 02: ![0%](https://progress-bar
 2. IDE: CLion (you can claim the license having a student status)
 3. For CLion Fortran plugin refer here: https://www.jetbrains.com/help/clion/fortran-support.html
 
+For sure, you can compile the ex. in the bash. In that case I suggest you know what u're doing, so u don't need any explanations.
 
 # Usage:
 
