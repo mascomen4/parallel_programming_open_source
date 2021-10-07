@@ -17,12 +17,11 @@ Lab 01: ![100%](https://progress-bar.dev/100) Lab 02: ![0%](https://progress-bar
 2. IDE: CLion (you can claim the license having a student status)
 3. For CLion Fortran plugin refer here: https://www.jetbrains.com/help/clion/fortran-support.html
 
-For sure, you can compile the ex. in the bash. In that case I suggest you know what u're doing, so u don't need any explanations.
-
 # Usage:
 
 - ``` git clone git@github.com:mascomen4/parallel_programming_open_source.git ```
 - Then in your IDE open the project, choose any **main** function from any exercise in configurations and run it. For example, choose **main_ex3** to run the tests over the ex2.f90 fortran file.
+- Files that use OpenMP have to be compiled using flag `-fopenmp`.
 - Each exercise consists of some number of points. Fer every point I made the `main` file, so you can easily select&run it. 
 
 # Contribution 
