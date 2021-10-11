@@ -27,128 +27,6 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main_ex4">
-				<Option output="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/main_ex4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gfortran"/>
-				<Compiler/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_ex4"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main_ex4/fast">
-				<Option output="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/main_ex4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gfortran"/>
-				<Compiler/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_ex4/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main_ex3">
-				<Option output="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/main_ex3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gfortran"/>
-				<Compiler/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_ex3"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main_ex3/fast">
-				<Option output="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/main_ex3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gfortran"/>
-				<Compiler/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_ex3/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main_ex2_point1">
-				<Option output="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/main_ex2_point1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gfortran"/>
-				<Compiler/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_ex2_point1"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main_ex2_point1/fast">
-				<Option output="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/main_ex2_point1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gfortran"/>
-				<Compiler/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_ex2_point1/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ex1_point3">
-				<Option output="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/ex1_point3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gfortran"/>
-				<Compiler/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex1_point3"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ex1_point3/fast">
-				<Option output="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/ex1_point3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gfortran"/>
-				<Compiler/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex1_point3/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="main_ex2_point5">
 				<Option output="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/main_ex2_point5" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug"/>
@@ -177,29 +55,57 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="main_ex2_point4">
-				<Option output="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/main_ex2_point4" prefix_auto="0" extension_auto="0"/>
+			<Target title="playground">
+				<Option output="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/playground" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gfortran"/>
 				<Compiler/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_ex2_point4"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 playground"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="main_ex2_point4/fast">
-				<Option output="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/main_ex2_point4" prefix_auto="0" extension_auto="0"/>
+			<Target title="playground/fast">
+				<Option output="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/playground" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gfortran"/>
 				<Compiler/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_ex2_point4/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 playground/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex1_point3">
+				<Option output="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/ex1_point3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gfortran"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex1_point3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex1_point3/fast">
+				<Option output="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/ex1_point3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gfortran"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex1_point3/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -261,6 +167,128 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="main_ex2_point4">
+				<Option output="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/main_ex2_point4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gfortran"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_ex2_point4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_ex2_point4/fast">
+				<Option output="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/main_ex2_point4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gfortran"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_ex2_point4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_ex2_point1">
+				<Option output="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/main_ex2_point1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gfortran"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_ex2_point1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_ex2_point1/fast">
+				<Option output="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/main_ex2_point1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gfortran"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_ex2_point1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_ex4">
+				<Option output="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/main_ex4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gfortran"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_ex4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_ex4/fast">
+				<Option output="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/main_ex4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gfortran"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_ex4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_ex3">
+				<Option output="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/main_ex3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gfortran"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_ex3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_ex3/fast">
+				<Option output="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/main_ex3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gfortran"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_ex3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ivan/CLionProjects/parallel_programming/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/home/ivan/CLionProjects/parallel_programming/lab01_new/ex1/ex1_point3.f90">
 			<Option target="ex1_point3"/>
@@ -285,6 +313,9 @@
 		</Unit>
 		<Unit filename="/home/ivan/CLionProjects/parallel_programming/lab01_new/ex4/main.f90">
 			<Option target="main_ex4"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/parallel_programming/lab01_new/playground.f90">
+			<Option target="playground"/>
 		</Unit>
 		<Unit filename="/home/ivan/CLionProjects/parallel_programming/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

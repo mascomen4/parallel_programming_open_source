@@ -1,0 +1,1 @@
+/usr/bin/f95 -fopenmp CMakeFiles/playground.dir/lab01_new/playground.f90.o -o playground 

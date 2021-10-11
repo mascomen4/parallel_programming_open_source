@@ -117,58 +117,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main_ex4
-
-# Build rule for target.
-main_ex4: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_ex4
-.PHONY : main_ex4
-
-# fast build rule for target.
-main_ex4/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex4.dir/build.make CMakeFiles/main_ex4.dir/build
-.PHONY : main_ex4/fast
-
-#=============================================================================
-# Target rules for targets named main_ex3
-
-# Build rule for target.
-main_ex3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_ex3
-.PHONY : main_ex3
-
-# fast build rule for target.
-main_ex3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex3.dir/build.make CMakeFiles/main_ex3.dir/build
-.PHONY : main_ex3/fast
-
-#=============================================================================
-# Target rules for targets named main_ex2_point1
-
-# Build rule for target.
-main_ex2_point1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_ex2_point1
-.PHONY : main_ex2_point1
-
-# fast build rule for target.
-main_ex2_point1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex2_point1.dir/build.make CMakeFiles/main_ex2_point1.dir/build
-.PHONY : main_ex2_point1/fast
-
-#=============================================================================
-# Target rules for targets named ex1_point3
-
-# Build rule for target.
-ex1_point3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex1_point3
-.PHONY : ex1_point3
-
-# fast build rule for target.
-ex1_point3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1_point3.dir/build.make CMakeFiles/ex1_point3.dir/build
-.PHONY : ex1_point3/fast
-
-#=============================================================================
 # Target rules for targets named main_ex2_point5
 
 # Build rule for target.
@@ -182,17 +130,30 @@ main_ex2_point5/fast:
 .PHONY : main_ex2_point5/fast
 
 #=============================================================================
-# Target rules for targets named main_ex2_point4
+# Target rules for targets named playground
 
 # Build rule for target.
-main_ex2_point4: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_ex2_point4
-.PHONY : main_ex2_point4
+playground: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 playground
+.PHONY : playground
 
 # fast build rule for target.
-main_ex2_point4/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex2_point4.dir/build.make CMakeFiles/main_ex2_point4.dir/build
-.PHONY : main_ex2_point4/fast
+playground/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/build
+.PHONY : playground/fast
+
+#=============================================================================
+# Target rules for targets named ex1_point3
+
+# Build rule for target.
+ex1_point3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex1_point3
+.PHONY : ex1_point3
+
+# fast build rule for target.
+ex1_point3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1_point3.dir/build.make CMakeFiles/ex1_point3.dir/build
+.PHONY : ex1_point3/fast
 
 #=============================================================================
 # Target rules for targets named ex1_points12
@@ -219,6 +180,58 @@ main_ex2_point2: cmake_check_build_system
 main_ex2_point2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex2_point2.dir/build.make CMakeFiles/main_ex2_point2.dir/build
 .PHONY : main_ex2_point2/fast
+
+#=============================================================================
+# Target rules for targets named main_ex2_point4
+
+# Build rule for target.
+main_ex2_point4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_ex2_point4
+.PHONY : main_ex2_point4
+
+# fast build rule for target.
+main_ex2_point4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex2_point4.dir/build.make CMakeFiles/main_ex2_point4.dir/build
+.PHONY : main_ex2_point4/fast
+
+#=============================================================================
+# Target rules for targets named main_ex2_point1
+
+# Build rule for target.
+main_ex2_point1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_ex2_point1
+.PHONY : main_ex2_point1
+
+# fast build rule for target.
+main_ex2_point1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex2_point1.dir/build.make CMakeFiles/main_ex2_point1.dir/build
+.PHONY : main_ex2_point1/fast
+
+#=============================================================================
+# Target rules for targets named main_ex4
+
+# Build rule for target.
+main_ex4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_ex4
+.PHONY : main_ex4
+
+# fast build rule for target.
+main_ex4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex4.dir/build.make CMakeFiles/main_ex4.dir/build
+.PHONY : main_ex4/fast
+
+#=============================================================================
+# Target rules for targets named main_ex3
+
+# Build rule for target.
+main_ex3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_ex3
+.PHONY : main_ex3
+
+# fast build rule for target.
+main_ex3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex3.dir/build.make CMakeFiles/main_ex3.dir/build
+.PHONY : main_ex3/fast
 
 lab01_new/ex1/ex1_point3.o: lab01_new/ex1/ex1_point3.f90.o
 .PHONY : lab01_new/ex1/ex1_point3.o
@@ -412,6 +425,30 @@ lab01_new/ex4/main.f90.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex4.dir/build.make CMakeFiles/main_ex4.dir/lab01_new/ex4/main.f90.s
 .PHONY : lab01_new/ex4/main.f90.s
 
+lab01_new/playground.o: lab01_new/playground.f90.o
+.PHONY : lab01_new/playground.o
+
+# target to build an object file
+lab01_new/playground.f90.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/lab01_new/playground.f90.o
+.PHONY : lab01_new/playground.f90.o
+
+lab01_new/playground.i: lab01_new/playground.f90.i
+.PHONY : lab01_new/playground.i
+
+# target to preprocess a source file
+lab01_new/playground.f90.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/lab01_new/playground.f90.i
+.PHONY : lab01_new/playground.f90.i
+
+lab01_new/playground.s: lab01_new/playground.f90.s
+.PHONY : lab01_new/playground.s
+
+# target to generate assembly for a file
+lab01_new/playground.f90.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/lab01_new/playground.f90.s
+.PHONY : lab01_new/playground.f90.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -428,6 +465,7 @@ help:
 	@echo "... main_ex2_point5"
 	@echo "... main_ex3"
 	@echo "... main_ex4"
+	@echo "... playground"
 	@echo "... lab01_new/ex1/ex1_point3.o"
 	@echo "... lab01_new/ex1/ex1_point3.i"
 	@echo "... lab01_new/ex1/ex1_point3.s"
@@ -452,6 +490,9 @@ help:
 	@echo "... lab01_new/ex4/main.o"
 	@echo "... lab01_new/ex4/main.i"
 	@echo "... lab01_new/ex4/main.s"
+	@echo "... lab01_new/playground.o"
+	@echo "... lab01_new/playground.i"
+	@echo "... lab01_new/playground.s"
 .PHONY : help
 
 

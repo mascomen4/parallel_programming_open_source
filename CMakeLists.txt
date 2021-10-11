@@ -7,6 +7,8 @@ enable_language(Fortran)
 add_executable(ex1_points12 lab01_new/ex1/ex1_points12.f90)
 add_executable(ex1_point3 lab01_new/ex1/ex1_point3.f90)
 
+add_executable(playground lab01_new/playground.f90)
+
 # add_executable(ex2_point4 lab01_new/ex2/ex2_point4.f90)
 # add_executable(ex2_point4 lab01_new/ex2/ex2_point4.f90)
 add_executable(main_ex2_point5 lab01_new/ex2/main_point5.f90)
