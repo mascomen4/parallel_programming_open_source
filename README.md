@@ -6,7 +6,7 @@ IMPORTANT: *lab01* directory is out of date. Please, use *lab01_new* for the fir
 Note: First line of each file consists of something like `! Created by ivan on 10.09.2021.`. Please, do remember to remove that line if you want to test
 the project on your own.  
 Note: Please, refer to branch `develop` for the most recent updates  
-Note: I suggest that you have read the task. 
+Note: I suggest that you have read the task in teams
 
 
 ### Labs progress:
