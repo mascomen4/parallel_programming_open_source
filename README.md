@@ -10,7 +10,7 @@ Note: I suggest that you have read the task in esystem.pfur.ru
 
 
 ### Labs progress:
-Lab 01: ![100%](https://progress-bar.dev/100) Lab 02: ![0%](https://progress-bar.dev/0)  Lab 03: ![0%](https://progress-bar.dev/0)  Lab 04: ![0%](https://progress-bar.dev/0)  
+Lab 01: ![100%](https://progress-bar.dev/100) Lab 02: ![0%](https://progress-bar.dev/100)  Lab 03: ![0%](https://progress-bar.dev/0)  Lab 04: ![0%](https://progress-bar.dev/0)  
 
 # Prerequisites:
 1. Miniconda or Anaconda distribution: https://docs.conda.io/en/latest/miniconda.html for plotting data in ex1. 
