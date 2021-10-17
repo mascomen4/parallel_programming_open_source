@@ -1,0 +1,1 @@
+/usr/bin/f95 -fopenmp CMakeFiles/lab01_main_ex2_point4.dir/lab01_new/ex2/main_point4.f90.o -o lab01_main_ex2_point4 

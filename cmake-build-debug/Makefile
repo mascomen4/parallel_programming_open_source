@@ -65,16 +65,6 @@ CMAKE_BINARY_DIR = /home/ivan/CLionProjects/parallel_programming/cmake-build-deb
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -84,6 +74,16 @@ edit_cache:
 # Special rule for the target edit_cache
 edit_cache/fast: edit_cache
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/ivan/ivan/programs/clion-2021.1.2/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -117,128 +117,141 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main_ex2_point5
+# Target rules for targets named lab01_main_ex2_point2
 
 # Build rule for target.
-main_ex2_point5: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_ex2_point5
-.PHONY : main_ex2_point5
+lab01_main_ex2_point2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab01_main_ex2_point2
+.PHONY : lab01_main_ex2_point2
 
 # fast build rule for target.
-main_ex2_point5/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex2_point5.dir/build.make CMakeFiles/main_ex2_point5.dir/build
-.PHONY : main_ex2_point5/fast
+lab01_main_ex2_point2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_main_ex2_point2.dir/build.make CMakeFiles/lab01_main_ex2_point2.dir/build
+.PHONY : lab01_main_ex2_point2/fast
 
 #=============================================================================
-# Target rules for targets named playground
+# Target rules for targets named lab01_main_ex2_point5
 
 # Build rule for target.
-playground: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 playground
-.PHONY : playground
+lab01_main_ex2_point5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab01_main_ex2_point5
+.PHONY : lab01_main_ex2_point5
 
 # fast build rule for target.
-playground/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/build
-.PHONY : playground/fast
+lab01_main_ex2_point5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_main_ex2_point5.dir/build.make CMakeFiles/lab01_main_ex2_point5.dir/build
+.PHONY : lab01_main_ex2_point5/fast
 
 #=============================================================================
-# Target rules for targets named ex1_point3
+# Target rules for targets named lab01_ex1_point3
 
 # Build rule for target.
-ex1_point3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex1_point3
-.PHONY : ex1_point3
+lab01_ex1_point3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab01_ex1_point3
+.PHONY : lab01_ex1_point3
 
 # fast build rule for target.
-ex1_point3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1_point3.dir/build.make CMakeFiles/ex1_point3.dir/build
-.PHONY : ex1_point3/fast
+lab01_ex1_point3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_ex1_point3.dir/build.make CMakeFiles/lab01_ex1_point3.dir/build
+.PHONY : lab01_ex1_point3/fast
 
 #=============================================================================
-# Target rules for targets named ex1_points12
+# Target rules for targets named lab01_ex1_points12
 
 # Build rule for target.
-ex1_points12: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex1_points12
-.PHONY : ex1_points12
+lab01_ex1_points12: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab01_ex1_points12
+.PHONY : lab01_ex1_points12
 
 # fast build rule for target.
-ex1_points12/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1_points12.dir/build.make CMakeFiles/ex1_points12.dir/build
-.PHONY : ex1_points12/fast
+lab01_ex1_points12/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_ex1_points12.dir/build.make CMakeFiles/lab01_ex1_points12.dir/build
+.PHONY : lab01_ex1_points12/fast
 
 #=============================================================================
-# Target rules for targets named main_ex2_point2
+# Target rules for targets named lab01_main_ex2_point4
 
 # Build rule for target.
-main_ex2_point2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_ex2_point2
-.PHONY : main_ex2_point2
+lab01_main_ex2_point4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab01_main_ex2_point4
+.PHONY : lab01_main_ex2_point4
 
 # fast build rule for target.
-main_ex2_point2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex2_point2.dir/build.make CMakeFiles/main_ex2_point2.dir/build
-.PHONY : main_ex2_point2/fast
+lab01_main_ex2_point4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_main_ex2_point4.dir/build.make CMakeFiles/lab01_main_ex2_point4.dir/build
+.PHONY : lab01_main_ex2_point4/fast
 
 #=============================================================================
-# Target rules for targets named main_ex2_point4
+# Target rules for targets named lab01_main_ex2_point1
 
 # Build rule for target.
-main_ex2_point4: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_ex2_point4
-.PHONY : main_ex2_point4
+lab01_main_ex2_point1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab01_main_ex2_point1
+.PHONY : lab01_main_ex2_point1
 
 # fast build rule for target.
-main_ex2_point4/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex2_point4.dir/build.make CMakeFiles/main_ex2_point4.dir/build
-.PHONY : main_ex2_point4/fast
+lab01_main_ex2_point1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_main_ex2_point1.dir/build.make CMakeFiles/lab01_main_ex2_point1.dir/build
+.PHONY : lab01_main_ex2_point1/fast
 
 #=============================================================================
-# Target rules for targets named main_ex2_point1
+# Target rules for targets named lab01_main_ex3
 
 # Build rule for target.
-main_ex2_point1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_ex2_point1
-.PHONY : main_ex2_point1
+lab01_main_ex3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab01_main_ex3
+.PHONY : lab01_main_ex3
 
 # fast build rule for target.
-main_ex2_point1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex2_point1.dir/build.make CMakeFiles/main_ex2_point1.dir/build
-.PHONY : main_ex2_point1/fast
+lab01_main_ex3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_main_ex3.dir/build.make CMakeFiles/lab01_main_ex3.dir/build
+.PHONY : lab01_main_ex3/fast
 
 #=============================================================================
-# Target rules for targets named main_ex4
+# Target rules for targets named lab01_main_ex4
 
 # Build rule for target.
-main_ex4: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_ex4
-.PHONY : main_ex4
+lab01_main_ex4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab01_main_ex4
+.PHONY : lab01_main_ex4
 
 # fast build rule for target.
-main_ex4/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex4.dir/build.make CMakeFiles/main_ex4.dir/build
-.PHONY : main_ex4/fast
+lab01_main_ex4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_main_ex4.dir/build.make CMakeFiles/lab01_main_ex4.dir/build
+.PHONY : lab01_main_ex4/fast
 
 #=============================================================================
-# Target rules for targets named main_ex3
+# Target rules for targets named lab02_ex1_test
 
 # Build rule for target.
-main_ex3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_ex3
-.PHONY : main_ex3
+lab02_ex1_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab02_ex1_test
+.PHONY : lab02_ex1_test
 
 # fast build rule for target.
-main_ex3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex3.dir/build.make CMakeFiles/main_ex3.dir/build
-.PHONY : main_ex3/fast
+lab02_ex1_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab02_ex1_test.dir/build.make CMakeFiles/lab02_ex1_test.dir/build
+.PHONY : lab02_ex1_test/fast
+
+#=============================================================================
+# Target rules for targets named lab02_ex2_test
+
+# Build rule for target.
+lab02_ex2_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab02_ex2_test
+.PHONY : lab02_ex2_test
+
+# fast build rule for target.
+lab02_ex2_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab02_ex2_test.dir/build.make CMakeFiles/lab02_ex2_test.dir/build
+.PHONY : lab02_ex2_test/fast
 
 lab01_new/ex1/ex1_point3.o: lab01_new/ex1/ex1_point3.f90.o
 .PHONY : lab01_new/ex1/ex1_point3.o
 
 # target to build an object file
 lab01_new/ex1/ex1_point3.f90.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1_point3.dir/build.make CMakeFiles/ex1_point3.dir/lab01_new/ex1/ex1_point3.f90.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_ex1_point3.dir/build.make CMakeFiles/lab01_ex1_point3.dir/lab01_new/ex1/ex1_point3.f90.o
 .PHONY : lab01_new/ex1/ex1_point3.f90.o
 
 lab01_new/ex1/ex1_point3.i: lab01_new/ex1/ex1_point3.f90.i
@@ -246,7 +259,7 @@ lab01_new/ex1/ex1_point3.i: lab01_new/ex1/ex1_point3.f90.i
 
 # target to preprocess a source file
 lab01_new/ex1/ex1_point3.f90.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1_point3.dir/build.make CMakeFiles/ex1_point3.dir/lab01_new/ex1/ex1_point3.f90.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_ex1_point3.dir/build.make CMakeFiles/lab01_ex1_point3.dir/lab01_new/ex1/ex1_point3.f90.i
 .PHONY : lab01_new/ex1/ex1_point3.f90.i
 
 lab01_new/ex1/ex1_point3.s: lab01_new/ex1/ex1_point3.f90.s
@@ -254,7 +267,7 @@ lab01_new/ex1/ex1_point3.s: lab01_new/ex1/ex1_point3.f90.s
 
 # target to generate assembly for a file
 lab01_new/ex1/ex1_point3.f90.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1_point3.dir/build.make CMakeFiles/ex1_point3.dir/lab01_new/ex1/ex1_point3.f90.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_ex1_point3.dir/build.make CMakeFiles/lab01_ex1_point3.dir/lab01_new/ex1/ex1_point3.f90.s
 .PHONY : lab01_new/ex1/ex1_point3.f90.s
 
 lab01_new/ex1/ex1_points12.o: lab01_new/ex1/ex1_points12.f90.o
@@ -262,7 +275,7 @@ lab01_new/ex1/ex1_points12.o: lab01_new/ex1/ex1_points12.f90.o
 
 # target to build an object file
 lab01_new/ex1/ex1_points12.f90.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1_points12.dir/build.make CMakeFiles/ex1_points12.dir/lab01_new/ex1/ex1_points12.f90.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_ex1_points12.dir/build.make CMakeFiles/lab01_ex1_points12.dir/lab01_new/ex1/ex1_points12.f90.o
 .PHONY : lab01_new/ex1/ex1_points12.f90.o
 
 lab01_new/ex1/ex1_points12.i: lab01_new/ex1/ex1_points12.f90.i
@@ -270,7 +283,7 @@ lab01_new/ex1/ex1_points12.i: lab01_new/ex1/ex1_points12.f90.i
 
 # target to preprocess a source file
 lab01_new/ex1/ex1_points12.f90.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1_points12.dir/build.make CMakeFiles/ex1_points12.dir/lab01_new/ex1/ex1_points12.f90.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_ex1_points12.dir/build.make CMakeFiles/lab01_ex1_points12.dir/lab01_new/ex1/ex1_points12.f90.i
 .PHONY : lab01_new/ex1/ex1_points12.f90.i
 
 lab01_new/ex1/ex1_points12.s: lab01_new/ex1/ex1_points12.f90.s
@@ -278,7 +291,7 @@ lab01_new/ex1/ex1_points12.s: lab01_new/ex1/ex1_points12.f90.s
 
 # target to generate assembly for a file
 lab01_new/ex1/ex1_points12.f90.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1_points12.dir/build.make CMakeFiles/ex1_points12.dir/lab01_new/ex1/ex1_points12.f90.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_ex1_points12.dir/build.make CMakeFiles/lab01_ex1_points12.dir/lab01_new/ex1/ex1_points12.f90.s
 .PHONY : lab01_new/ex1/ex1_points12.f90.s
 
 lab01_new/ex2/main_point1.o: lab01_new/ex2/main_point1.f90.o
@@ -286,7 +299,7 @@ lab01_new/ex2/main_point1.o: lab01_new/ex2/main_point1.f90.o
 
 # target to build an object file
 lab01_new/ex2/main_point1.f90.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex2_point1.dir/build.make CMakeFiles/main_ex2_point1.dir/lab01_new/ex2/main_point1.f90.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_main_ex2_point1.dir/build.make CMakeFiles/lab01_main_ex2_point1.dir/lab01_new/ex2/main_point1.f90.o
 .PHONY : lab01_new/ex2/main_point1.f90.o
 
 lab01_new/ex2/main_point1.i: lab01_new/ex2/main_point1.f90.i
@@ -294,7 +307,7 @@ lab01_new/ex2/main_point1.i: lab01_new/ex2/main_point1.f90.i
 
 # target to preprocess a source file
 lab01_new/ex2/main_point1.f90.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex2_point1.dir/build.make CMakeFiles/main_ex2_point1.dir/lab01_new/ex2/main_point1.f90.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_main_ex2_point1.dir/build.make CMakeFiles/lab01_main_ex2_point1.dir/lab01_new/ex2/main_point1.f90.i
 .PHONY : lab01_new/ex2/main_point1.f90.i
 
 lab01_new/ex2/main_point1.s: lab01_new/ex2/main_point1.f90.s
@@ -302,7 +315,7 @@ lab01_new/ex2/main_point1.s: lab01_new/ex2/main_point1.f90.s
 
 # target to generate assembly for a file
 lab01_new/ex2/main_point1.f90.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex2_point1.dir/build.make CMakeFiles/main_ex2_point1.dir/lab01_new/ex2/main_point1.f90.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_main_ex2_point1.dir/build.make CMakeFiles/lab01_main_ex2_point1.dir/lab01_new/ex2/main_point1.f90.s
 .PHONY : lab01_new/ex2/main_point1.f90.s
 
 lab01_new/ex2/main_point2.o: lab01_new/ex2/main_point2.f90.o
@@ -310,7 +323,7 @@ lab01_new/ex2/main_point2.o: lab01_new/ex2/main_point2.f90.o
 
 # target to build an object file
 lab01_new/ex2/main_point2.f90.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex2_point2.dir/build.make CMakeFiles/main_ex2_point2.dir/lab01_new/ex2/main_point2.f90.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_main_ex2_point2.dir/build.make CMakeFiles/lab01_main_ex2_point2.dir/lab01_new/ex2/main_point2.f90.o
 .PHONY : lab01_new/ex2/main_point2.f90.o
 
 lab01_new/ex2/main_point2.i: lab01_new/ex2/main_point2.f90.i
@@ -318,7 +331,7 @@ lab01_new/ex2/main_point2.i: lab01_new/ex2/main_point2.f90.i
 
 # target to preprocess a source file
 lab01_new/ex2/main_point2.f90.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex2_point2.dir/build.make CMakeFiles/main_ex2_point2.dir/lab01_new/ex2/main_point2.f90.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_main_ex2_point2.dir/build.make CMakeFiles/lab01_main_ex2_point2.dir/lab01_new/ex2/main_point2.f90.i
 .PHONY : lab01_new/ex2/main_point2.f90.i
 
 lab01_new/ex2/main_point2.s: lab01_new/ex2/main_point2.f90.s
@@ -326,7 +339,7 @@ lab01_new/ex2/main_point2.s: lab01_new/ex2/main_point2.f90.s
 
 # target to generate assembly for a file
 lab01_new/ex2/main_point2.f90.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex2_point2.dir/build.make CMakeFiles/main_ex2_point2.dir/lab01_new/ex2/main_point2.f90.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_main_ex2_point2.dir/build.make CMakeFiles/lab01_main_ex2_point2.dir/lab01_new/ex2/main_point2.f90.s
 .PHONY : lab01_new/ex2/main_point2.f90.s
 
 lab01_new/ex2/main_point4.o: lab01_new/ex2/main_point4.f90.o
@@ -334,7 +347,7 @@ lab01_new/ex2/main_point4.o: lab01_new/ex2/main_point4.f90.o
 
 # target to build an object file
 lab01_new/ex2/main_point4.f90.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex2_point4.dir/build.make CMakeFiles/main_ex2_point4.dir/lab01_new/ex2/main_point4.f90.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_main_ex2_point4.dir/build.make CMakeFiles/lab01_main_ex2_point4.dir/lab01_new/ex2/main_point4.f90.o
 .PHONY : lab01_new/ex2/main_point4.f90.o
 
 lab01_new/ex2/main_point4.i: lab01_new/ex2/main_point4.f90.i
@@ -342,7 +355,7 @@ lab01_new/ex2/main_point4.i: lab01_new/ex2/main_point4.f90.i
 
 # target to preprocess a source file
 lab01_new/ex2/main_point4.f90.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex2_point4.dir/build.make CMakeFiles/main_ex2_point4.dir/lab01_new/ex2/main_point4.f90.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_main_ex2_point4.dir/build.make CMakeFiles/lab01_main_ex2_point4.dir/lab01_new/ex2/main_point4.f90.i
 .PHONY : lab01_new/ex2/main_point4.f90.i
 
 lab01_new/ex2/main_point4.s: lab01_new/ex2/main_point4.f90.s
@@ -350,7 +363,7 @@ lab01_new/ex2/main_point4.s: lab01_new/ex2/main_point4.f90.s
 
 # target to generate assembly for a file
 lab01_new/ex2/main_point4.f90.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex2_point4.dir/build.make CMakeFiles/main_ex2_point4.dir/lab01_new/ex2/main_point4.f90.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_main_ex2_point4.dir/build.make CMakeFiles/lab01_main_ex2_point4.dir/lab01_new/ex2/main_point4.f90.s
 .PHONY : lab01_new/ex2/main_point4.f90.s
 
 lab01_new/ex2/main_point5.o: lab01_new/ex2/main_point5.f90.o
@@ -358,7 +371,7 @@ lab01_new/ex2/main_point5.o: lab01_new/ex2/main_point5.f90.o
 
 # target to build an object file
 lab01_new/ex2/main_point5.f90.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex2_point5.dir/build.make CMakeFiles/main_ex2_point5.dir/lab01_new/ex2/main_point5.f90.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_main_ex2_point5.dir/build.make CMakeFiles/lab01_main_ex2_point5.dir/lab01_new/ex2/main_point5.f90.o
 .PHONY : lab01_new/ex2/main_point5.f90.o
 
 lab01_new/ex2/main_point5.i: lab01_new/ex2/main_point5.f90.i
@@ -366,7 +379,7 @@ lab01_new/ex2/main_point5.i: lab01_new/ex2/main_point5.f90.i
 
 # target to preprocess a source file
 lab01_new/ex2/main_point5.f90.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex2_point5.dir/build.make CMakeFiles/main_ex2_point5.dir/lab01_new/ex2/main_point5.f90.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_main_ex2_point5.dir/build.make CMakeFiles/lab01_main_ex2_point5.dir/lab01_new/ex2/main_point5.f90.i
 .PHONY : lab01_new/ex2/main_point5.f90.i
 
 lab01_new/ex2/main_point5.s: lab01_new/ex2/main_point5.f90.s
@@ -374,7 +387,7 @@ lab01_new/ex2/main_point5.s: lab01_new/ex2/main_point5.f90.s
 
 # target to generate assembly for a file
 lab01_new/ex2/main_point5.f90.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex2_point5.dir/build.make CMakeFiles/main_ex2_point5.dir/lab01_new/ex2/main_point5.f90.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_main_ex2_point5.dir/build.make CMakeFiles/lab01_main_ex2_point5.dir/lab01_new/ex2/main_point5.f90.s
 .PHONY : lab01_new/ex2/main_point5.f90.s
 
 lab01_new/ex3/main.o: lab01_new/ex3/main.f90.o
@@ -382,7 +395,7 @@ lab01_new/ex3/main.o: lab01_new/ex3/main.f90.o
 
 # target to build an object file
 lab01_new/ex3/main.f90.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex3.dir/build.make CMakeFiles/main_ex3.dir/lab01_new/ex3/main.f90.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_main_ex3.dir/build.make CMakeFiles/lab01_main_ex3.dir/lab01_new/ex3/main.f90.o
 .PHONY : lab01_new/ex3/main.f90.o
 
 lab01_new/ex3/main.i: lab01_new/ex3/main.f90.i
@@ -390,7 +403,7 @@ lab01_new/ex3/main.i: lab01_new/ex3/main.f90.i
 
 # target to preprocess a source file
 lab01_new/ex3/main.f90.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex3.dir/build.make CMakeFiles/main_ex3.dir/lab01_new/ex3/main.f90.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_main_ex3.dir/build.make CMakeFiles/lab01_main_ex3.dir/lab01_new/ex3/main.f90.i
 .PHONY : lab01_new/ex3/main.f90.i
 
 lab01_new/ex3/main.s: lab01_new/ex3/main.f90.s
@@ -398,7 +411,7 @@ lab01_new/ex3/main.s: lab01_new/ex3/main.f90.s
 
 # target to generate assembly for a file
 lab01_new/ex3/main.f90.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex3.dir/build.make CMakeFiles/main_ex3.dir/lab01_new/ex3/main.f90.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_main_ex3.dir/build.make CMakeFiles/lab01_main_ex3.dir/lab01_new/ex3/main.f90.s
 .PHONY : lab01_new/ex3/main.f90.s
 
 lab01_new/ex4/main.o: lab01_new/ex4/main.f90.o
@@ -406,7 +419,7 @@ lab01_new/ex4/main.o: lab01_new/ex4/main.f90.o
 
 # target to build an object file
 lab01_new/ex4/main.f90.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex4.dir/build.make CMakeFiles/main_ex4.dir/lab01_new/ex4/main.f90.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_main_ex4.dir/build.make CMakeFiles/lab01_main_ex4.dir/lab01_new/ex4/main.f90.o
 .PHONY : lab01_new/ex4/main.f90.o
 
 lab01_new/ex4/main.i: lab01_new/ex4/main.f90.i
@@ -414,7 +427,7 @@ lab01_new/ex4/main.i: lab01_new/ex4/main.f90.i
 
 # target to preprocess a source file
 lab01_new/ex4/main.f90.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex4.dir/build.make CMakeFiles/main_ex4.dir/lab01_new/ex4/main.f90.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_main_ex4.dir/build.make CMakeFiles/lab01_main_ex4.dir/lab01_new/ex4/main.f90.i
 .PHONY : lab01_new/ex4/main.f90.i
 
 lab01_new/ex4/main.s: lab01_new/ex4/main.f90.s
@@ -422,32 +435,56 @@ lab01_new/ex4/main.s: lab01_new/ex4/main.f90.s
 
 # target to generate assembly for a file
 lab01_new/ex4/main.f90.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_ex4.dir/build.make CMakeFiles/main_ex4.dir/lab01_new/ex4/main.f90.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_main_ex4.dir/build.make CMakeFiles/lab01_main_ex4.dir/lab01_new/ex4/main.f90.s
 .PHONY : lab01_new/ex4/main.f90.s
 
-lab01_new/playground.o: lab01_new/playground.f90.o
-.PHONY : lab01_new/playground.o
+lab02/test_reduction.o: lab02/test_reduction.f90.o
+.PHONY : lab02/test_reduction.o
 
 # target to build an object file
-lab01_new/playground.f90.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/lab01_new/playground.f90.o
-.PHONY : lab01_new/playground.f90.o
+lab02/test_reduction.f90.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab02_ex1_test.dir/build.make CMakeFiles/lab02_ex1_test.dir/lab02/test_reduction.f90.o
+.PHONY : lab02/test_reduction.f90.o
 
-lab01_new/playground.i: lab01_new/playground.f90.i
-.PHONY : lab01_new/playground.i
+lab02/test_reduction.i: lab02/test_reduction.f90.i
+.PHONY : lab02/test_reduction.i
 
 # target to preprocess a source file
-lab01_new/playground.f90.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/lab01_new/playground.f90.i
-.PHONY : lab01_new/playground.f90.i
+lab02/test_reduction.f90.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab02_ex1_test.dir/build.make CMakeFiles/lab02_ex1_test.dir/lab02/test_reduction.f90.i
+.PHONY : lab02/test_reduction.f90.i
 
-lab01_new/playground.s: lab01_new/playground.f90.s
-.PHONY : lab01_new/playground.s
+lab02/test_reduction.s: lab02/test_reduction.f90.s
+.PHONY : lab02/test_reduction.s
 
 # target to generate assembly for a file
-lab01_new/playground.f90.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/lab01_new/playground.f90.s
-.PHONY : lab01_new/playground.f90.s
+lab02/test_reduction.f90.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab02_ex1_test.dir/build.make CMakeFiles/lab02_ex1_test.dir/lab02/test_reduction.f90.s
+.PHONY : lab02/test_reduction.f90.s
+
+lab02/test_trapezoidal.o: lab02/test_trapezoidal.f90.o
+.PHONY : lab02/test_trapezoidal.o
+
+# target to build an object file
+lab02/test_trapezoidal.f90.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab02_ex2_test.dir/build.make CMakeFiles/lab02_ex2_test.dir/lab02/test_trapezoidal.f90.o
+.PHONY : lab02/test_trapezoidal.f90.o
+
+lab02/test_trapezoidal.i: lab02/test_trapezoidal.f90.i
+.PHONY : lab02/test_trapezoidal.i
+
+# target to preprocess a source file
+lab02/test_trapezoidal.f90.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab02_ex2_test.dir/build.make CMakeFiles/lab02_ex2_test.dir/lab02/test_trapezoidal.f90.i
+.PHONY : lab02/test_trapezoidal.f90.i
+
+lab02/test_trapezoidal.s: lab02/test_trapezoidal.f90.s
+.PHONY : lab02/test_trapezoidal.s
+
+# target to generate assembly for a file
+lab02/test_trapezoidal.f90.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab02_ex2_test.dir/build.make CMakeFiles/lab02_ex2_test.dir/lab02/test_trapezoidal.f90.s
+.PHONY : lab02/test_trapezoidal.f90.s
 
 # Help Target
 help:
@@ -457,15 +494,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ex1_point3"
-	@echo "... ex1_points12"
-	@echo "... main_ex2_point1"
-	@echo "... main_ex2_point2"
-	@echo "... main_ex2_point4"
-	@echo "... main_ex2_point5"
-	@echo "... main_ex3"
-	@echo "... main_ex4"
-	@echo "... playground"
+	@echo "... lab01_ex1_point3"
+	@echo "... lab01_ex1_points12"
+	@echo "... lab01_main_ex2_point1"
+	@echo "... lab01_main_ex2_point2"
+	@echo "... lab01_main_ex2_point4"
+	@echo "... lab01_main_ex2_point5"
+	@echo "... lab01_main_ex3"
+	@echo "... lab01_main_ex4"
+	@echo "... lab02_ex1_test"
+	@echo "... lab02_ex2_test"
 	@echo "... lab01_new/ex1/ex1_point3.o"
 	@echo "... lab01_new/ex1/ex1_point3.i"
 	@echo "... lab01_new/ex1/ex1_point3.s"
@@ -490,9 +528,12 @@ help:
 	@echo "... lab01_new/ex4/main.o"
 	@echo "... lab01_new/ex4/main.i"
 	@echo "... lab01_new/ex4/main.s"
-	@echo "... lab01_new/playground.o"
-	@echo "... lab01_new/playground.i"
-	@echo "... lab01_new/playground.s"
+	@echo "... lab02/test_reduction.o"
+	@echo "... lab02/test_reduction.i"
+	@echo "... lab02/test_reduction.s"
+	@echo "... lab02/test_trapezoidal.o"
+	@echo "... lab02/test_trapezoidal.i"
+	@echo "... lab02/test_trapezoidal.s"
 .PHONY : help
 
 
