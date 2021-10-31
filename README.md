@@ -26,10 +26,15 @@ Lab 01: ![100%](https://progress-bar.dev/100) Lab 02: ![0%](https://progress-bar
 - Then in your IDE open the project, choose any **main** function from any exercise in configurations and run it. For example, choose **main_ex3** to run the tests over the ex2.f90 fortran file.
 - The project is being built using CMake, so you don't need to write the flag `-fopenmp` for each file, as it's written in the file `CMakeLists.txt`
 - Each exercise consists of some number of points. Fer every point I made the `main` file, so you can easily select&run it.
+
+# Lab 1.
 - *Note to Windows users:* in `ex1_point3.f90` you may experience some troubles with writing to file. Or memory access. You may need to change the size of array and the number of iterations from 10^6 to the 10^3, and increase the number of the nested iterations to from 10^2 to 10^4.
 - *Note for Windows users in Question 3 in Ex.2* the command to know the number of cores is `wmic cpu get NumberOfCores`. The number of threads is numbers of cores multiplied by 2.
 - In `main_ex2_point2` you need to change in `Edit Configurations...` the Environment variable to `OMP_NUM_THREADS=Number`, where `Number` is the number of desired cores. Also you may need to write `Number` in Program arguments (it's also located in `Edit Configurations`. (If you don't understand why, please read the task first)
 - You can visualize the data in ex1 using either `Visuzalization.ipynb` either `plot.py`. `plot.py` is designed to be called from the command line.
+
+# Lab 2. 
+- Hello world! 
 
 # Contribution 
 1. Write me you github name so I could add you 
