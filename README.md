@@ -34,7 +34,8 @@ Lab 1: ![100%](https://progress-bar.dev/100) Lab 2: ![0%](https://progress-bar.d
 - You can visualize the data in ex1 using either `Visuzalization.ipynb` either `plot.py`. `plot.py` is designed to be called from the command line.
 
 # Lab 2. 
-- To create images of the speed estimation, copy the `plot.py` file from the lab01_new to lab02. Then compile the test_reduction (in terminal) `gfortran -fopenmp -Wall test_reduction.f90` (output should be `a.exe` for Windows or `a.out` for Linux). Then run the following command for Windows: `./a.exe sum | python3 plot.py`, and `./a.out sum | python3` for Linux.
+- To create images of the speed estimation, copy the `plot.py` file from the files, attached to the lab0. Then compile the test_reduction (in terminal) `gfortran -fopenmp -Wall test_reduction.f90` (output should be `a.exe` for Windows or `a.out` for Linux). Then run the following command for Windows: `./a.exe sum | python3 plot.py`, and `./a.out sum | python3` for Linux.
 - In lab02_ex1_test go to Edit Configurations... and then add one of the arguments "min", "sum" or "max" without quotations marks and then you can run it.
+
 # Contribution 
 1. Write me you github name so I could add you 
