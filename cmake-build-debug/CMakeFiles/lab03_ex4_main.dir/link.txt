@@ -1,0 +1,1 @@
+/usr/bin/f95 -fopenmp CMakeFiles/lab03_ex4_main.dir/lab03/ex4.f90.o -o lab03_ex4_main 

@@ -63,12 +63,17 @@ CMAKE_BINARY_DIR = /home/ivan/CLionProjects/parallel_programming/cmake-build-deb
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/lab03_ex5_main.dir/all
+all: CMakeFiles/lab03_ex4_main.dir/all
+all: CMakeFiles/lab03_ex2_main.dir/all
 all: CMakeFiles/lab01_main_ex2_point2.dir/all
 all: CMakeFiles/lab01_main_ex2_point5.dir/all
 all: CMakeFiles/lab01_ex1_point3.dir/all
 all: CMakeFiles/lab01_ex1_points12.dir/all
 all: CMakeFiles/lab01_main_ex2_point4.dir/all
 all: CMakeFiles/lab01_main_ex2_point1.dir/all
+all: CMakeFiles/lab03_ex3_main.dir/all
+all: CMakeFiles/lab03_ex1_main.dir/all
 all: CMakeFiles/lab01_main_ex3.dir/all
 all: CMakeFiles/lab01_main_ex4.dir/all
 all: CMakeFiles/lab02_ex1_test.dir/all
@@ -80,17 +85,100 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/lab03_ex5_main.dir/clean
+clean: CMakeFiles/lab03_ex4_main.dir/clean
+clean: CMakeFiles/lab03_ex2_main.dir/clean
 clean: CMakeFiles/lab01_main_ex2_point2.dir/clean
 clean: CMakeFiles/lab01_main_ex2_point5.dir/clean
 clean: CMakeFiles/lab01_ex1_point3.dir/clean
 clean: CMakeFiles/lab01_ex1_points12.dir/clean
 clean: CMakeFiles/lab01_main_ex2_point4.dir/clean
 clean: CMakeFiles/lab01_main_ex2_point1.dir/clean
+clean: CMakeFiles/lab03_ex3_main.dir/clean
+clean: CMakeFiles/lab03_ex1_main.dir/clean
 clean: CMakeFiles/lab01_main_ex3.dir/clean
 clean: CMakeFiles/lab01_main_ex4.dir/clean
 clean: CMakeFiles/lab02_ex1_test.dir/clean
 clean: CMakeFiles/lab02_ex2_test.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lab03_ex5_main.dir
+
+# All Build rule for target.
+CMakeFiles/lab03_ex5_main.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex5_main.dir/build.make CMakeFiles/lab03_ex5_main.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex5_main.dir/build.make CMakeFiles/lab03_ex5_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target lab03_ex5_main"
+.PHONY : CMakeFiles/lab03_ex5_main.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lab03_ex5_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lab03_ex5_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/lab03_ex5_main.dir/rule
+
+# Convenience name for target.
+lab03_ex5_main: CMakeFiles/lab03_ex5_main.dir/rule
+.PHONY : lab03_ex5_main
+
+# clean rule for target.
+CMakeFiles/lab03_ex5_main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex5_main.dir/build.make CMakeFiles/lab03_ex5_main.dir/clean
+.PHONY : CMakeFiles/lab03_ex5_main.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lab03_ex4_main.dir
+
+# All Build rule for target.
+CMakeFiles/lab03_ex4_main.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex4_main.dir/build.make CMakeFiles/lab03_ex4_main.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex4_main.dir/build.make CMakeFiles/lab03_ex4_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target lab03_ex4_main"
+.PHONY : CMakeFiles/lab03_ex4_main.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lab03_ex4_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lab03_ex4_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/lab03_ex4_main.dir/rule
+
+# Convenience name for target.
+lab03_ex4_main: CMakeFiles/lab03_ex4_main.dir/rule
+.PHONY : lab03_ex4_main
+
+# clean rule for target.
+CMakeFiles/lab03_ex4_main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex4_main.dir/build.make CMakeFiles/lab03_ex4_main.dir/clean
+.PHONY : CMakeFiles/lab03_ex4_main.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lab03_ex2_main.dir
+
+# All Build rule for target.
+CMakeFiles/lab03_ex2_main.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex2_main.dir/build.make CMakeFiles/lab03_ex2_main.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex2_main.dir/build.make CMakeFiles/lab03_ex2_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target lab03_ex2_main"
+.PHONY : CMakeFiles/lab03_ex2_main.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lab03_ex2_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lab03_ex2_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/lab03_ex2_main.dir/rule
+
+# Convenience name for target.
+lab03_ex2_main: CMakeFiles/lab03_ex2_main.dir/rule
+.PHONY : lab03_ex2_main
+
+# clean rule for target.
+CMakeFiles/lab03_ex2_main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex2_main.dir/build.make CMakeFiles/lab03_ex2_main.dir/clean
+.PHONY : CMakeFiles/lab03_ex2_main.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/lab01_main_ex2_point2.dir
@@ -247,6 +335,58 @@ lab01_main_ex2_point1: CMakeFiles/lab01_main_ex2_point1.dir/rule
 CMakeFiles/lab01_main_ex2_point1.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_main_ex2_point1.dir/build.make CMakeFiles/lab01_main_ex2_point1.dir/clean
 .PHONY : CMakeFiles/lab01_main_ex2_point1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lab03_ex3_main.dir
+
+# All Build rule for target.
+CMakeFiles/lab03_ex3_main.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex3_main.dir/build.make CMakeFiles/lab03_ex3_main.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex3_main.dir/build.make CMakeFiles/lab03_ex3_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target lab03_ex3_main"
+.PHONY : CMakeFiles/lab03_ex3_main.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lab03_ex3_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lab03_ex3_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/lab03_ex3_main.dir/rule
+
+# Convenience name for target.
+lab03_ex3_main: CMakeFiles/lab03_ex3_main.dir/rule
+.PHONY : lab03_ex3_main
+
+# clean rule for target.
+CMakeFiles/lab03_ex3_main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex3_main.dir/build.make CMakeFiles/lab03_ex3_main.dir/clean
+.PHONY : CMakeFiles/lab03_ex3_main.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lab03_ex1_main.dir
+
+# All Build rule for target.
+CMakeFiles/lab03_ex1_main.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex1_main.dir/build.make CMakeFiles/lab03_ex1_main.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex1_main.dir/build.make CMakeFiles/lab03_ex1_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target lab03_ex1_main"
+.PHONY : CMakeFiles/lab03_ex1_main.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lab03_ex1_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lab03_ex1_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ivan/CLionProjects/parallel_programming/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/lab03_ex1_main.dir/rule
+
+# Convenience name for target.
+lab03_ex1_main: CMakeFiles/lab03_ex1_main.dir/rule
+.PHONY : lab03_ex1_main
+
+# clean rule for target.
+CMakeFiles/lab03_ex1_main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex1_main.dir/build.make CMakeFiles/lab03_ex1_main.dir/clean
+.PHONY : CMakeFiles/lab03_ex1_main.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/lab01_main_ex3.dir

@@ -117,6 +117,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named lab03_ex5_main
+
+# Build rule for target.
+lab03_ex5_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab03_ex5_main
+.PHONY : lab03_ex5_main
+
+# fast build rule for target.
+lab03_ex5_main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex5_main.dir/build.make CMakeFiles/lab03_ex5_main.dir/build
+.PHONY : lab03_ex5_main/fast
+
+#=============================================================================
+# Target rules for targets named lab03_ex4_main
+
+# Build rule for target.
+lab03_ex4_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab03_ex4_main
+.PHONY : lab03_ex4_main
+
+# fast build rule for target.
+lab03_ex4_main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex4_main.dir/build.make CMakeFiles/lab03_ex4_main.dir/build
+.PHONY : lab03_ex4_main/fast
+
+#=============================================================================
+# Target rules for targets named lab03_ex2_main
+
+# Build rule for target.
+lab03_ex2_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab03_ex2_main
+.PHONY : lab03_ex2_main
+
+# fast build rule for target.
+lab03_ex2_main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex2_main.dir/build.make CMakeFiles/lab03_ex2_main.dir/build
+.PHONY : lab03_ex2_main/fast
+
+#=============================================================================
 # Target rules for targets named lab01_main_ex2_point2
 
 # Build rule for target.
@@ -193,6 +232,32 @@ lab01_main_ex2_point1: cmake_check_build_system
 lab01_main_ex2_point1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab01_main_ex2_point1.dir/build.make CMakeFiles/lab01_main_ex2_point1.dir/build
 .PHONY : lab01_main_ex2_point1/fast
+
+#=============================================================================
+# Target rules for targets named lab03_ex3_main
+
+# Build rule for target.
+lab03_ex3_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab03_ex3_main
+.PHONY : lab03_ex3_main
+
+# fast build rule for target.
+lab03_ex3_main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex3_main.dir/build.make CMakeFiles/lab03_ex3_main.dir/build
+.PHONY : lab03_ex3_main/fast
+
+#=============================================================================
+# Target rules for targets named lab03_ex1_main
+
+# Build rule for target.
+lab03_ex1_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab03_ex1_main
+.PHONY : lab03_ex1_main
+
+# fast build rule for target.
+lab03_ex1_main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex1_main.dir/build.make CMakeFiles/lab03_ex1_main.dir/build
+.PHONY : lab03_ex1_main/fast
 
 #=============================================================================
 # Target rules for targets named lab01_main_ex3
@@ -486,6 +551,126 @@ lab02/test_trapezoidal.f90.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab02_ex2_test.dir/build.make CMakeFiles/lab02_ex2_test.dir/lab02/test_trapezoidal.f90.s
 .PHONY : lab02/test_trapezoidal.f90.s
 
+lab03/ex1.o: lab03/ex1.f90.o
+.PHONY : lab03/ex1.o
+
+# target to build an object file
+lab03/ex1.f90.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex1_main.dir/build.make CMakeFiles/lab03_ex1_main.dir/lab03/ex1.f90.o
+.PHONY : lab03/ex1.f90.o
+
+lab03/ex1.i: lab03/ex1.f90.i
+.PHONY : lab03/ex1.i
+
+# target to preprocess a source file
+lab03/ex1.f90.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex1_main.dir/build.make CMakeFiles/lab03_ex1_main.dir/lab03/ex1.f90.i
+.PHONY : lab03/ex1.f90.i
+
+lab03/ex1.s: lab03/ex1.f90.s
+.PHONY : lab03/ex1.s
+
+# target to generate assembly for a file
+lab03/ex1.f90.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex1_main.dir/build.make CMakeFiles/lab03_ex1_main.dir/lab03/ex1.f90.s
+.PHONY : lab03/ex1.f90.s
+
+lab03/ex2.o: lab03/ex2.f90.o
+.PHONY : lab03/ex2.o
+
+# target to build an object file
+lab03/ex2.f90.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex2_main.dir/build.make CMakeFiles/lab03_ex2_main.dir/lab03/ex2.f90.o
+.PHONY : lab03/ex2.f90.o
+
+lab03/ex2.i: lab03/ex2.f90.i
+.PHONY : lab03/ex2.i
+
+# target to preprocess a source file
+lab03/ex2.f90.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex2_main.dir/build.make CMakeFiles/lab03_ex2_main.dir/lab03/ex2.f90.i
+.PHONY : lab03/ex2.f90.i
+
+lab03/ex2.s: lab03/ex2.f90.s
+.PHONY : lab03/ex2.s
+
+# target to generate assembly for a file
+lab03/ex2.f90.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex2_main.dir/build.make CMakeFiles/lab03_ex2_main.dir/lab03/ex2.f90.s
+.PHONY : lab03/ex2.f90.s
+
+lab03/ex3.o: lab03/ex3.f90.o
+.PHONY : lab03/ex3.o
+
+# target to build an object file
+lab03/ex3.f90.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex3_main.dir/build.make CMakeFiles/lab03_ex3_main.dir/lab03/ex3.f90.o
+.PHONY : lab03/ex3.f90.o
+
+lab03/ex3.i: lab03/ex3.f90.i
+.PHONY : lab03/ex3.i
+
+# target to preprocess a source file
+lab03/ex3.f90.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex3_main.dir/build.make CMakeFiles/lab03_ex3_main.dir/lab03/ex3.f90.i
+.PHONY : lab03/ex3.f90.i
+
+lab03/ex3.s: lab03/ex3.f90.s
+.PHONY : lab03/ex3.s
+
+# target to generate assembly for a file
+lab03/ex3.f90.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex3_main.dir/build.make CMakeFiles/lab03_ex3_main.dir/lab03/ex3.f90.s
+.PHONY : lab03/ex3.f90.s
+
+lab03/ex4.o: lab03/ex4.f90.o
+.PHONY : lab03/ex4.o
+
+# target to build an object file
+lab03/ex4.f90.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex4_main.dir/build.make CMakeFiles/lab03_ex4_main.dir/lab03/ex4.f90.o
+.PHONY : lab03/ex4.f90.o
+
+lab03/ex4.i: lab03/ex4.f90.i
+.PHONY : lab03/ex4.i
+
+# target to preprocess a source file
+lab03/ex4.f90.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex4_main.dir/build.make CMakeFiles/lab03_ex4_main.dir/lab03/ex4.f90.i
+.PHONY : lab03/ex4.f90.i
+
+lab03/ex4.s: lab03/ex4.f90.s
+.PHONY : lab03/ex4.s
+
+# target to generate assembly for a file
+lab03/ex4.f90.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex4_main.dir/build.make CMakeFiles/lab03_ex4_main.dir/lab03/ex4.f90.s
+.PHONY : lab03/ex4.f90.s
+
+lab03/ex5.o: lab03/ex5.f90.o
+.PHONY : lab03/ex5.o
+
+# target to build an object file
+lab03/ex5.f90.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex5_main.dir/build.make CMakeFiles/lab03_ex5_main.dir/lab03/ex5.f90.o
+.PHONY : lab03/ex5.f90.o
+
+lab03/ex5.i: lab03/ex5.f90.i
+.PHONY : lab03/ex5.i
+
+# target to preprocess a source file
+lab03/ex5.f90.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex5_main.dir/build.make CMakeFiles/lab03_ex5_main.dir/lab03/ex5.f90.i
+.PHONY : lab03/ex5.f90.i
+
+lab03/ex5.s: lab03/ex5.f90.s
+.PHONY : lab03/ex5.s
+
+# target to generate assembly for a file
+lab03/ex5.f90.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex5_main.dir/build.make CMakeFiles/lab03_ex5_main.dir/lab03/ex5.f90.s
+.PHONY : lab03/ex5.f90.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -504,6 +689,11 @@ help:
 	@echo "... lab01_main_ex4"
 	@echo "... lab02_ex1_test"
 	@echo "... lab02_ex2_test"
+	@echo "... lab03_ex1_main"
+	@echo "... lab03_ex2_main"
+	@echo "... lab03_ex3_main"
+	@echo "... lab03_ex4_main"
+	@echo "... lab03_ex5_main"
 	@echo "... lab01_new/ex1/ex1_point3.o"
 	@echo "... lab01_new/ex1/ex1_point3.i"
 	@echo "... lab01_new/ex1/ex1_point3.s"
@@ -534,6 +724,21 @@ help:
 	@echo "... lab02/test_trapezoidal.o"
 	@echo "... lab02/test_trapezoidal.i"
 	@echo "... lab02/test_trapezoidal.s"
+	@echo "... lab03/ex1.o"
+	@echo "... lab03/ex1.i"
+	@echo "... lab03/ex1.s"
+	@echo "... lab03/ex2.o"
+	@echo "... lab03/ex2.i"
+	@echo "... lab03/ex2.s"
+	@echo "... lab03/ex3.o"
+	@echo "... lab03/ex3.i"
+	@echo "... lab03/ex3.s"
+	@echo "... lab03/ex4.o"
+	@echo "... lab03/ex4.i"
+	@echo "... lab03/ex4.s"
+	@echo "... lab03/ex5.o"
+	@echo "... lab03/ex5.i"
+	@echo "... lab03/ex5.s"
 .PHONY : help
 
 
