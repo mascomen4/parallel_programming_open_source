@@ -10,7 +10,7 @@ Note: I suggest that you have read the task in esystem.pfur.ru
 
 
 ### Labs progress:
-Lab 1: ![100%](https://progress-bar.dev/100) Lab 2: ![0%](https://progress-bar.dev/100)  Lab 3: ![0%](https://progress-bar.dev/0)  Lab 4: ![0%](https://progress-bar.dev/0)  
+Lab 1: ![100%](https://progress-bar.dev/100) Lab 2: ![0%](https://progress-bar.dev/100)  Lab 3: ![80%](https://progress-bar.dev/80)  Lab 4: ![0%](https://progress-bar.dev/0)  
 
 # Prerequisites:
 1. Miniconda or Anaconda distribution: https://docs.conda.io/en/latest/miniconda.html for plotting data in ex1. 
@@ -36,6 +36,9 @@ Lab 1: ![100%](https://progress-bar.dev/100) Lab 2: ![0%](https://progress-bar.d
 # Lab 2. 
 - To create images of the speed estimation, copy the `plot.py` file from the files, attached to the lab0. Then compile the test_reduction (in terminal) `gfortran -fopenmp -Wall test_reduction.f90` (output should be `a.exe` for Windows or `a.out` for Linux). Then run the following command for Windows: `./a.exe sum | python3 plot.py`, and `./a.out sum | python3` for Linux.
 - In lab02_ex1_test go to Edit Configurations... and then add one of the arguments "min", "sum" or "max" without quotations marks and then you can run it.
+
+# Lab 3. 
+Easy-peasy. Just open & run it.
 
 # Contribution 
 1. Write me you github name so I could add you 
