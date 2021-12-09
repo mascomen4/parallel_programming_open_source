@@ -208,6 +208,19 @@ lab01_ex1_points12/fast:
 .PHONY : lab01_ex1_points12/fast
 
 #=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
 # Target rules for targets named lab01_main_ex2_point4
 
 # Build rule for target.
@@ -671,6 +684,30 @@ lab03/ex5.f90.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab03_ex5_main.dir/build.make CMakeFiles/lab03_ex5_main.dir/lab03/ex5.f90.s
 .PHONY : lab03/ex5.f90.s
 
+test.o: test.f90.o
+.PHONY : test.o
+
+# target to build an object file
+test.f90.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.f90.o
+.PHONY : test.f90.o
+
+test.i: test.f90.i
+.PHONY : test.i
+
+# target to preprocess a source file
+test.f90.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.f90.i
+.PHONY : test.f90.i
+
+test.s: test.f90.s
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.f90.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.f90.s
+.PHONY : test.f90.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -694,6 +731,7 @@ help:
 	@echo "... lab03_ex3_main"
 	@echo "... lab03_ex4_main"
 	@echo "... lab03_ex5_main"
+	@echo "... test"
 	@echo "... lab01_new/ex1/ex1_point3.o"
 	@echo "... lab01_new/ex1/ex1_point3.i"
 	@echo "... lab01_new/ex1/ex1_point3.s"
@@ -739,6 +777,9 @@ help:
 	@echo "... lab03/ex5.o"
 	@echo "... lab03/ex5.i"
 	@echo "... lab03/ex5.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

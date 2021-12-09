@@ -7,48 +7,28 @@ module games
 
     contains
 
-    function tokens_game(x, y, z, cycles) result(avg_length)
+    function tokens_game(x, y, z) result(counter)
         implicit none
-        integer, intent(in) :: x, y, z, cycles
-        integer, dimension(1:cycles) :: rounds
-        integer :: i, counter, tmp, copy_x, copy_y, copy_z
-        real :: avg_length
+        integer, intent(in) :: x, y, z
+        integer :: counter, toss
+        integer, dimension(3) :: players
 
-        copy_x = x
-        copy_y = y
-        copy_z = z
+        players(1) = x
+        players(2) = y
+        players(3) = z
+        counter = 0
 
-        !$omp parallel
-            !$omp do
-            do i=1, cycles
-                counter = 0
-                do while (copy_x /= 0 .or. copy_y /= 0 .or. copy_z /= 0)
-                    tmp = randomint(3)
-                    if (tmp == 1) then
-                        copy_x = copy_x + 2
-                        copy_y = copy_y - 1
-                        copy_z = copy_z - 1
-                    else if (tmp == 2) then
-                        copy_y = copy_y + 2
-                        copy_x = copy_x - 1
-                        copy_z = copy_z -1
-                    else if (tmp == 3) then
-                        copy_z = copy_z + 2
-                        copy_y = copy_y - 1
-                        copy_x = copy_x - 1
-                    end if
-                    counter = counter + 1
-                end do
-                rounds(i) = counter
-            end do
-            !$omp end do
-        !$omp end parallel
+        do while ( (players(1) /= 0) .and. (players(2) /= 0) .and. (players(3) /= 0) )
+            players(1) = players(1) - 1
+            players(2) = players(2) - 1
+            players(3) = players(3) - 1
 
-        avg_length = sum(rounds) / size(rounds)
+            toss = randomint(3)
+            players(toss) = players(toss) + 3
 
+            counter = counter + 1
+        end do
     end function tokens_game
-
-
 end module games
 
 
@@ -58,7 +38,8 @@ program main
     use games
     implicit none
 
-    integer x, y, z, cycles
+    integer x, y, z, cycles, tmp_res, i
+    integer, allocatable :: rounds(:)
     real res
 
     write (*, *) "Задача о жетонах. Имеем 3 игрока, бросают кости &
@@ -73,9 +54,23 @@ program main
     read (*, *) x, y, z, cycles
     write (*, *) "Read success. Processing..."
 
-    res = tokens_game(x, y, z, cycles)
+    allocate(rounds(1:cycles))
+
+    !$omp parallel
+        !$omp do reduction (+ : rounds)
+        do i=1, cycles
+            tmp_res = tokens_game(x, y, z)
+            rounds(i) = tmp_res
+        end do
+        !$omp end do
+    !$omp end parallel
+
+    res = real(sum(rounds)) / real(size(rounds))
+
+    deallocate(rounds)
 
     write(*, *) "Обработка произошла успешно."
-    write(*, *) "Среднее количество раундов до конца игры: ", res
+    write(*, *) "Среднее количество раундов до конца игры: ", floor(res)
+    write(*, *) "Должно быть значение: ", (x * y * z) / (x + y + z - 2)
 
 end program main

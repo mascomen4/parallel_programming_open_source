@@ -33,6 +33,8 @@ add_executable(lab03_ex3_main lab03/ex3.f90)
 add_executable(lab03_ex4_main lab03/ex4.f90)
 add_executable(lab03_ex5_main lab03/ex5.f90)
 
+add_executable(test test.f90)
+
 set (CMAKE_Fortran_FLAGS_RELEASE "-fopenmp")
 set (CMAKE_Fortran_FLAGS_DEBUG "-fopenmp")
 add_compile_options("-fopenmp")

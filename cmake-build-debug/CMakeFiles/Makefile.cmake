@@ -49,6 +49,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/lab01_main_ex2_point5.dir/DependInfo.cmake"
   "CMakeFiles/lab01_ex1_point3.dir/DependInfo.cmake"
   "CMakeFiles/lab01_ex1_points12.dir/DependInfo.cmake"
+  "CMakeFiles/test.dir/DependInfo.cmake"
   "CMakeFiles/lab01_main_ex2_point4.dir/DependInfo.cmake"
   "CMakeFiles/lab01_main_ex2_point1.dir/DependInfo.cmake"
   "CMakeFiles/lab03_ex3_main.dir/DependInfo.cmake"
