@@ -57,7 +57,8 @@ program main
     allocate(rounds(1:cycles))
 
     !$omp parallel
-        !$omp do reduction (+ : rounds)
+        !$omp do
+        !reduction (+ : rounds)
         do i=1, cycles
             tmp_res = tokens_game(x, y, z)
             rounds(i) = tmp_res

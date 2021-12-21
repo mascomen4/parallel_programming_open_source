@@ -42,6 +42,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/lab04_ex2_main.dir/DependInfo.cmake"
   "CMakeFiles/lab03_ex5_main.dir/DependInfo.cmake"
   "CMakeFiles/lab03_ex4_main.dir/DependInfo.cmake"
   "CMakeFiles/lab03_ex2_main.dir/DependInfo.cmake"
@@ -52,6 +53,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test.dir/DependInfo.cmake"
   "CMakeFiles/lab01_main_ex2_point4.dir/DependInfo.cmake"
   "CMakeFiles/lab01_main_ex2_point1.dir/DependInfo.cmake"
+  "CMakeFiles/lab04_ex1_main.dir/DependInfo.cmake"
   "CMakeFiles/lab03_ex3_main.dir/DependInfo.cmake"
   "CMakeFiles/lab03_ex1_main.dir/DependInfo.cmake"
   "CMakeFiles/lab01_main_ex3.dir/DependInfo.cmake"
